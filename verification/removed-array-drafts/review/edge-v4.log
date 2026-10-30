@@ -1,0 +1,6 @@
+{"scenario":"nested-produce-discard-inner-result","mode":"plain","observed":0,"base":0,"out":0}
+{"scenario":"nested-produce-discard-inner-result","mode":"baseline","observed":1,"base":0,"out":1}
+{"scenario":"nested-produce-discard-inner-result","mode":"candidate","observed":0,"base":0,"out":0}
+{"scenario":"getter-count-on-other-element","mode":"plain","reads":1}
+{"scenario":"getter-count-on-other-element","mode":"baseline","reads":1}
+{"scenario":"getter-count-on-other-element","mode":"candidate","reads":1}

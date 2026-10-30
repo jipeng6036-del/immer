@@ -1,0 +1,500 @@
+[
+  {
+    "kind": "baseline",
+    "files": [
+      {
+        "file": "LICENSE",
+        "tarballSha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/index.js.flow",
+        "tarballSha256": "5c0ec7b6db6b3c90f69f3b46e68bc43691801f112b28efbbd4a49e67a7c33ef6",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/index.js.flow",
+        "tarballSha256": "5c0ec7b6db6b3c90f69f3b46e68bc43691801f112b28efbbd4a49e67a7c33ef6",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.development.js",
+        "tarballSha256": "a97781a393b5234c3ba9e4552691ac0aaf1ea5bb2e8b4530dac45d510e03ab58",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.production.js",
+        "tarballSha256": "29e5dab6eda65eb66c9f5af16bb0e9edb36fef2a665ae5fc255b7cfeb4edd9db",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.legacy-esm.js",
+        "tarballSha256": "1464c4ee2ef71530e0fdf03eb7ff7b8ba3f378f5dce25064ab526d4f7a317d1d",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/index.js",
+        "tarballSha256": "7f637a5b444a27f4c6d66bd5be1bb0582691a449f0d3f15223d2463f9ceccf3a",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "package.json",
+        "tarballSha256": "5e2c16b27903e7713d7317dd6ce46087755e20639522d22ed43cd854b34a8fc6",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.development.js.map",
+        "tarballSha256": "67eae8dc2e69dcbe91223d2ce88868f260f29eee075a50cc5ec6bd1ebfc52118",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.production.js.map",
+        "tarballSha256": "4aeedda0e9c0782f5d8d4cdc1c9fdc7763718d41b6ff24e8795cb974b4ff2189",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.legacy-esm.js.map",
+        "tarballSha256": "a89bb4053a5526b055298d539f58c9edf9a91bb0c4cf6d0f4a84e72d77fa267b",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.mjs.map",
+        "tarballSha256": "98b6e21430633bd8cdce25152cad1874d2e4c629d452e79e36073197c05b6aa9",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.production.mjs.map",
+        "tarballSha256": "90c2dfe8919936508706e3ffc191843481f69a91a751c8a347319df123d22f2b",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "readme.md",
+        "tarballSha256": "aa4c25aa3b251470ec5512d4271c202d229a0a9ffcf377762be331a5157edfba",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.mjs",
+        "tarballSha256": "64ec112d72b329fa18c706a64be17e53a01b80ca2f4616cfbd4d72c1a80a6ca8",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.production.mjs",
+        "tarballSha256": "113b214de673fd982ee61499655113c5d60358d97531fdb0d0e585b31992ec2a",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/plugins/arrayMethods.ts",
+        "tarballSha256": "4d12e308ea3a0e670834cb5aa3874e47de925a51d8b12c3dc71d5e6c342d97c4",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/common.ts",
+        "tarballSha256": "866d918f39f40b3566d1e6ca3316a2495cd036354a9419fab0c103dc0db332b5",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/current.ts",
+        "tarballSha256": "ad170b371269d0f90b9cff269084a44b70d79a32bbffbc69d7bec4885816fa9a",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/env.ts",
+        "tarballSha256": "c8b9b7d096f5eb90aaadf4d0c1947217635381dd990ff317b83111d5424a624e",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/errors.ts",
+        "tarballSha256": "6041b13b5252df6908e9b693ab114eddc21c0967b6d9bf255f5120278bfd2cec",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/finalize.ts",
+        "tarballSha256": "f5c76275dc374fb22367e21ab9348ca663dd681588b0becfb9564754d4fb913b",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/globals.d.ts",
+        "tarballSha256": "7a3e25d022daacb54a8bfdaeabea263c6266cfc19c9d855d002b7014beb8dc8d",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.d.ts",
+        "tarballSha256": "5edb03c72c155002f11a3237e09bcea4b5320c918bf1eb468f2a697e5eab4dce",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/immer.ts",
+        "tarballSha256": "4b6ac1c93d490ac54dc3634cf3f38064fd065dd0f8fc3bf1c5d2d6bab5b266a5",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/immerClass.ts",
+        "tarballSha256": "8cf35b67c6f31fb1e1d861dde65c5db106a90178aaf2d6f1a18fc0683a45eb01",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/internal.ts",
+        "tarballSha256": "3d8f2bd0bc4379a9f6709a907029d02029c93cad75fed586cfbab88060a35896",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/plugins/mapset.ts",
+        "tarballSha256": "8cfdf4ac7925d4c8ca248df3b95bd5b626e0473338c21e56b9ca2990d16e0a41",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/plugins/patches.ts",
+        "tarballSha256": "611a87c99ca766ccf33bf55507f989502cac0804d3fd9fd648984efefbbdae23",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/plugins.ts",
+        "tarballSha256": "a124c5fa095b7592d35bdc88ded44f5e2fa6ca7b90cee2cd36c034a4a8d15132",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/proxy.ts",
+        "tarballSha256": "fac7fb2778b3c9a5add6178b889f03e198da58c5573a0cc5da61eeef4055a990",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/scope.ts",
+        "tarballSha256": "ccfd3cabb86ea9568b5ea18d36aeaec7426f8cbc0bc4107624ad4348ea146056",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/types-external.ts",
+        "tarballSha256": "10f925fcf02b01220423072a07a59482ca2630d4a5cce1e8da2614307a2b6f53",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/types-internal.ts",
+        "tarballSha256": "41d6f552263a3812607f9a47d12224f5d4ce6b8934664fff828d4967bf9ed659",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      }
+    ],
+    "tarballSha256": "162aad55307dc22c70db762851b71d67e38b1dddbefdf438377fe47a4ca031a7",
+    "installKinds": [
+      "windows",
+      "linux"
+    ],
+    "installedFileCount": 34
+  },
+  {
+    "kind": "candidate",
+    "files": [
+      {
+        "file": "LICENSE",
+        "tarballSha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/index.js.flow",
+        "tarballSha256": "3ddc7242654fe8310e9a8fab19256755af5461769d6436d9680b54c33f50ea00",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/index.js.flow",
+        "tarballSha256": "5c0ec7b6db6b3c90f69f3b46e68bc43691801f112b28efbbd4a49e67a7c33ef6",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.development.js",
+        "tarballSha256": "0f39cbbb63c15eb0c38aaacaa5d481f9926e87ec814ec586b5e49fa2e5c8222a",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.production.js",
+        "tarballSha256": "aa3eab8f60340c54a8c98a0a1f5dc6c9dcfefa596ee99daa65423381ad873ea1",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.legacy-esm.js",
+        "tarballSha256": "1c9e295b572616e9c2d5900d321bf132fca60620126807bb82a6e909715d1b1f",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/index.js",
+        "tarballSha256": "7f637a5b444a27f4c6d66bd5be1bb0582691a449f0d3f15223d2463f9ceccf3a",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "package.json",
+        "tarballSha256": "5e2c16b27903e7713d7317dd6ce46087755e20639522d22ed43cd854b34a8fc6",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.development.js.map",
+        "tarballSha256": "3753daf7c99b092d7a1cdda321cf3f17efb78b7229bdd81345a05f0ac019c997",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/cjs/immer.cjs.production.js.map",
+        "tarballSha256": "dc9a5561fa5a53cbc6d095452a7bfb593e18234ee628fbb7fdf77ab84565224c",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.legacy-esm.js.map",
+        "tarballSha256": "429d1d264354bcf1d3e88f4783a3c4bc5599b5d04b5a119651d491493c2addbb",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.mjs.map",
+        "tarballSha256": "42b68b0c9727e8ae2d33e0b719c93d2289f729929b8ec046e7be0cfa3fec3e6f",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.production.mjs.map",
+        "tarballSha256": "bf1016d7c2c683c2f49bd56efaa2f6ff8b1855fc08fa545c5132f8476a9a9176",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "readme.md",
+        "tarballSha256": "aa4c25aa3b251470ec5512d4271c202d229a0a9ffcf377762be331a5157edfba",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.mjs",
+        "tarballSha256": "c2b0a1c98a1198ca7bb458fe4c7f69b8c89bb2b20e442f18420f40e4f9c284de",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.production.mjs",
+        "tarballSha256": "0b36f0f9fb7cf31a11d3d8b9cd3fdd3a18eb16d33f8ec3eae9d5a925b18e8e81",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/plugins/arrayMethods.ts",
+        "tarballSha256": "c3ace1e0e0dd1d704d47f732fc13cee53c7035cc82d598b42b8f25e72cf54211",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/common.ts",
+        "tarballSha256": "866d918f39f40b3566d1e6ca3316a2495cd036354a9419fab0c103dc0db332b5",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/current.ts",
+        "tarballSha256": "ad170b371269d0f90b9cff269084a44b70d79a32bbffbc69d7bec4885816fa9a",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/env.ts",
+        "tarballSha256": "c8b9b7d096f5eb90aaadf4d0c1947217635381dd990ff317b83111d5424a624e",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/errors.ts",
+        "tarballSha256": "6041b13b5252df6908e9b693ab114eddc21c0967b6d9bf255f5120278bfd2cec",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/finalize.ts",
+        "tarballSha256": "f5c76275dc374fb22367e21ab9348ca663dd681588b0becfb9564754d4fb913b",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/globals.d.ts",
+        "tarballSha256": "7a3e25d022daacb54a8bfdaeabea263c6266cfc19c9d855d002b7014beb8dc8d",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "dist/immer.d.ts",
+        "tarballSha256": "3191248a5220ab98e0fbc0aa183881779a3ba00e2d346c19aa3fda3d05a869e9",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/immer.ts",
+        "tarballSha256": "4b6ac1c93d490ac54dc3634cf3f38064fd065dd0f8fc3bf1c5d2d6bab5b266a5",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/immerClass.ts",
+        "tarballSha256": "8cf35b67c6f31fb1e1d861dde65c5db106a90178aaf2d6f1a18fc0683a45eb01",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/internal.ts",
+        "tarballSha256": "3d8f2bd0bc4379a9f6709a907029d02029c93cad75fed586cfbab88060a35896",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/plugins/mapset.ts",
+        "tarballSha256": "8cfdf4ac7925d4c8ca248df3b95bd5b626e0473338c21e56b9ca2990d16e0a41",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/plugins/patches.ts",
+        "tarballSha256": "611a87c99ca766ccf33bf55507f989502cac0804d3fd9fd648984efefbbdae23",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/utils/plugins.ts",
+        "tarballSha256": "a124c5fa095b7592d35bdc88ded44f5e2fa6ca7b90cee2cd36c034a4a8d15132",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/proxy.ts",
+        "tarballSha256": "fac7fb2778b3c9a5add6178b889f03e198da58c5573a0cc5da61eeef4055a990",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/core/scope.ts",
+        "tarballSha256": "ccfd3cabb86ea9568b5ea18d36aeaec7426f8cbc0bc4107624ad4348ea146056",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/types-external.ts",
+        "tarballSha256": "10f925fcf02b01220423072a07a59482ca2630d4a5cce1e8da2614307a2b6f53",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      },
+      {
+        "file": "src/types/types-internal.ts",
+        "tarballSha256": "41d6f552263a3812607f9a47d12224f5d4ce6b8934664fff828d4967bf9ed659",
+        "stageEqual": true,
+        "windowsEqual": true,
+        "linuxEqual": true
+      }
+    ],
+    "tarballSha256": "f52fc1ada2356097444d2ff08993d472b26d8b2be983b149e92ab21639ea84d3",
+    "installKinds": [
+      "windows",
+      "linux"
+    ],
+    "installedFileCount": 34
+  }
+]

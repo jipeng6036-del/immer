@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-30T02:42:51.208227+00:00",
+  "status": "NO_ACTIONABLE_FINDINGS_IN_REVIEWED_V4",
+  "baseline": "75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+  "reviewedBundle": "candidate-v4.cjs",
+  "bundleSha256": "4b2e57ef3042ecb4f1f125b7a9c2b542ba041e8d4949714ae116b10645158cba",
+  "sourceSnapshot": "candidate-v4-source and CANDIDATE_V4_SOURCE_MANIFEST.json",
+  "findings": [],
+  "supersedes": "REVIEW.json v2 getter finding; original evidence preserved",
+  "resolvedFinding": "No whole-base map scan. Retained getter reads1 on ordinary/original-plugin/v4, one-read getter producer succeeds in all3.",
+  "focused": {
+    "scenarios": 18,
+    "variants": 3,
+    "total": 54,
+    "candidatePassed": 18,
+    "candidateFailed": 0,
+    "plainPassed": 18,
+    "originalPluginFailed": 13
+  },
+  "extraProbes": {
+    "nestedProduceDiscardedInnerResult": "v4 outer value0 equals ordinary; original plugin1. Base unchanged in all3.",
+    "spliceArgumentCoercion": "v4 valueOf1 equals ordinary; original plugin3.",
+    "nestedOperationExceptionRecovery": "Inside overridden sort callback, caught pop/shift draftability error or splice valueOf error; later index read still returns base value, all3 cases passed; array length2 unchanged.",
+    "getterRegression": "v4 reads1, no exception, output length1; matches ordinary/exact baseline plugin"
+  },
+  "reviewJudgment": "Pop/shift pre-read uses existing normal get for exactly the removed element, preserves existing draft/external distinction and finalization parent/key. Splice uses ordinary proxy native operation, preserving actual JS coercion and sparse behavior. No actionable regression established in inspected source and focused checks.",
+  "limitations": [
+    "Focused review only; worker owns full test/build/Flow gate",
+    "Performance not independently measured in this review",
+    "No public PR/review/CI or release verified",
+    "Successful nested mutation of the same array inside sort comparator not assigned broader semantic guarantees"
+  ],
+  "artifacts": [
+    "focused-v4.cjs",
+    "focused-v4.log",
+    "focused-v4-results.json",
+    "getter-regression-v4.cjs",
+    "getter-regression-v4.log",
+    "edge-v4.cjs",
+    "edge-v4.log",
+    "nested-operation-v4.cjs",
+    "nested-operation-v4.log"
+  ]
+}

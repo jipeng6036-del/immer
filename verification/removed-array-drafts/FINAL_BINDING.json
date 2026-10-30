@@ -1,0 +1,32 @@
+{
+  "baseline": "75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+  "candidate": "d54c38736b4393720c2f47e0cc26ef320fb9674d",
+  "tree": "b6d5113c6125b8712f316b601d21222a74550cdb",
+  "sourceFiles": {
+    "src/plugins/arrayMethods.ts": "c3ace1e0e0dd1d704d47f732fc13cee53c7035cc82d598b42b8f25e72cf54211",
+    "website/docs/array-methods.md": "8c4c223a7c322dd7486d392295b172e92e3acc0e3ad8f5489db4269fce78fc2d",
+    "__tests__/array-methods-removed.js": "ccea92595ebe30b1006137b408a9f384755f728ff531557ae4e57fc7c4ac553f"
+  },
+  "buildArtifacts": {
+    "dist/cjs/immer.cjs.development.js": "0f39cbbb63c15eb0c38aaacaa5d481f9926e87ec814ec586b5e49fa2e5c8222a",
+    "dist/cjs/immer.cjs.production.js": "aa3eab8f60340c54a8c98a0a1f5dc6c9dcfefa596ee99daa65423381ad873ea1",
+    "dist/immer.mjs": "c2b0a1c98a1198ca7bb458fe4c7f69b8c89bb2b20e442f18420f40e4f9c284de",
+    "dist/immer.d.ts": "3191248a5220ab98e0fbc0aa183881779a3ba00e2d346c19aa3fda3d05a869e9"
+  },
+  "package": {
+    "name": "immer",
+    "version": "10.0.3-beta"
+  },
+  "tarballs": {
+    "baseline": {
+      "sha256": "162aad55307dc22c70db762851b71d67e38b1dddbefdf438377fe47a4ca031a7",
+      "npmIntegrity": "sha512-2QYc2alUjTNRaASPco3QOFJq5PUqJj7/98cDx8afKBlHhdK6TE+cx8upCI4KoLZt2AkzoLqi1r8jHe8gdLP3iw==",
+      "fileCount": 34
+    },
+    "candidate": {
+      "sha256": "f52fc1ada2356097444d2ff08993d472b26d8b2be983b149e92ab21639ea84d3",
+      "npmIntegrity": "sha512-4zlwXFdTsQJJCTdxnTmGftF/HbMC/xoidIn+7RdqG+KYBHsFx0+Fm/OxXEX45xvxtFFKonM8bCLk4hRmPePXSQ==",
+      "fileCount": 34
+    }
+  }
+}

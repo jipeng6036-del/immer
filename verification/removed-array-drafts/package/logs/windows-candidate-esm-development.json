@@ -1,0 +1,81 @@
+{
+  "node": "v24.14.0",
+  "platform": "win32",
+  "entry": {
+    "format": "import",
+    "resolved": "file:///<workspace>/ci-evidence/pr4-discovery-20261030-0205/lane-python/immer-package/consumers/windows-candidate/node_modules/immer/dist/immer.mjs",
+    "NODE_ENV": "development"
+  },
+  "passed": 17,
+  "failed": 0,
+  "rows": [
+    {
+      "name": "move-pop:autoFreeze=false:frozen=false",
+      "pass": true
+    },
+    {
+      "name": "move-pop:autoFreeze=false:frozen=true",
+      "pass": true
+    },
+    {
+      "name": "move-pop:autoFreeze=true:frozen=false",
+      "pass": true
+    },
+    {
+      "name": "move-pop:autoFreeze=true:frozen=true",
+      "pass": true
+    },
+    {
+      "name": "move-shift:autoFreeze=false:frozen=false",
+      "pass": true
+    },
+    {
+      "name": "move-shift:autoFreeze=false:frozen=true",
+      "pass": true
+    },
+    {
+      "name": "move-shift:autoFreeze=true:frozen=false",
+      "pass": true
+    },
+    {
+      "name": "move-shift:autoFreeze=true:frozen=true",
+      "pass": true
+    },
+    {
+      "name": "move-splice:autoFreeze=false:frozen=false",
+      "pass": true
+    },
+    {
+      "name": "move-splice:autoFreeze=false:frozen=true",
+      "pass": true
+    },
+    {
+      "name": "move-splice:autoFreeze=true:frozen=false",
+      "pass": true
+    },
+    {
+      "name": "move-splice:autoFreeze=true:frozen=true",
+      "pass": true
+    },
+    {
+      "name": "existing-draft-reinsert-remove",
+      "pass": true
+    },
+    {
+      "name": "external-control",
+      "pass": true
+    },
+    {
+      "name": "empty-noop-control",
+      "pass": true
+    },
+    {
+      "name": "getter-on-retained-element",
+      "pass": true
+    },
+    {
+      "name": "sparse-removal",
+      "pass": true
+    }
+  ]
+}

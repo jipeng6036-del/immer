@@ -1,0 +1,30 @@
+{
+  "baseline": [
+    "git archive 75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+    "yarn --frozen-lockfile (same committed lockfile; existing dependency tree used for isolated package rebuild)",
+    "yarn build",
+    "npm pack --json --pack-destination <artifact-dir>"
+  ],
+  "candidate": [
+    "git archive d54c38736b4393720c2f47e0cc26ef320fb9674d",
+    "original yarn build output copied from fully validated final source; artifact hashes checked",
+    "npm pack --json --pack-destination <artifact-dir>"
+  ],
+  "fullWindows": [
+    "yarn --frozen-lockfile",
+    "yarn test",
+    "yarn coverage",
+    "yarn test:perf",
+    "yarn prettier --check src/plugins/arrayMethods.ts website/docs/array-methods.md __tests__/array-methods-removed.js",
+    "git diff --check"
+  ],
+  "linux": "See logs/linux/run-v4-gates.sh and v4-gates.log; exact input source manifest bound in FINAL_BINDING.json",
+  "tarballConsumer": [
+    "npm install --ignore-scripts --no-audit --no-fund <exact .tgz>",
+    "NODE_ENV=development node entry.cjs",
+    "NODE_ENV=production node entry.cjs",
+    "node entry.mjs"
+  ],
+  "size": "Original yarn test:size failed; NODE_OPTIONS=--openssl-legacy-provider yarn test:size used only for separately reported compatible size measurement.",
+  "testRerunDuringEvidencePrep": false
+}

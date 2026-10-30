@@ -1,0 +1,762 @@
+{
+  "rules": {
+    "workspace-json-backslash": "Windows workspace prefix in escaped JSON -> <workspace>",
+    "workspace-backslash": "Windows workspace prefix -> <workspace>",
+    "workspace-slash": "Slash-separated workspace prefix -> <workspace>",
+    "home-json-backslash": "Private Windows home prefix in escaped JSON -> <user-home>",
+    "home-backslash": "Private Windows home prefix -> <user-home>",
+    "home-slash": "Slash-separated private home prefix -> <user-home>"
+  },
+  "unchanged": "No values, test results, compressed artifact bytes, or original source hashes were rewritten. Path prefixes only; original and public hashes are separate.",
+  "files": [
+    {
+      "source": "lane-python/immer-publication-prep/FINAL_BINDING.json",
+      "target": "FINAL_BINDING.json",
+      "sourceSha256": "aafe2975935875359e151eabe0bd845ce35461fc5c72d78a3ad49bb42c4834d5",
+      "publicSha256": "aafe2975935875359e151eabe0bd845ce35461fc5c72d78a3ad49bb42c4834d5",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-publication-prep/COMMANDS.json",
+      "target": "COMMANDS.json",
+      "sourceSha256": "e2f6736fa3e46790df09f898c2ed9cbc8f08657f463d7548d25fb08af8075017",
+      "publicSha256": "e2f6736fa3e46790df09f898c2ed9cbc8f08657f463d7548d25fb08af8075017",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-publication-prep/FORK_CI.json",
+      "target": "FORK_CI.json",
+      "sourceSha256": "53ccbb5740d491156dd2a45d9b50839642fcdcb8dc779237d8849023ca7eea1d",
+      "publicSha256": "53ccbb5740d491156dd2a45d9b50839642fcdcb8dc779237d8849023ca7eea1d",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-publication-prep/final-source.diff",
+      "target": "source/final-source.diff",
+      "sourceSha256": "f93e32092021cbf348a1587be155cd44a9f722840a38c799b87e486b9c3fd773",
+      "publicSha256": "f93e32092021cbf348a1587be155cd44a9f722840a38c799b87e486b9c3fd773",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/candidate-v4-yarn-test.log",
+      "target": "logs/windows/yarn-test.log",
+      "sourceSha256": "84c860f9682e18403114c93e45df07bdb6e537704510e83660ace4ec91bf4353",
+      "publicSha256": "25f863bdae2643bc76bb323964ca0d0073a5b390cae36e38507ac49cec09ec15",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-backslash",
+          "count": 6
+        },
+        {
+          "rule": "workspace-slash",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "source": "lane-js/candidate-v4-coverage.log",
+      "target": "logs/windows/coverage.log",
+      "sourceSha256": "8c0e5e5ad8d68d5a7264747c682055e1a04fa8ad04c452fd7ca7de398cb7711f",
+      "publicSha256": "7c682bfff730ec0b620feb245733d431702be07e56190de190d783ba010114b5",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-slash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-js/candidate-v4-perf.log",
+      "target": "logs/windows/perf.log",
+      "sourceSha256": "e81d2ed4617c61c584750b1df1adec63b520a6d774f45dea0c9c3b718fcd61e2",
+      "publicSha256": "e81d2ed4617c61c584750b1df1adec63b520a6d774f45dea0c9c3b718fcd61e2",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/candidate-v4-prettier.log",
+      "target": "logs/windows/prettier.log",
+      "sourceSha256": "1107a1c4f8fec1161f3daa16df08ccb86b8f0cbceb06cf856f01f7ffabbfc04b",
+      "publicSha256": "3c048e88e160250f07954a925b51ca72b17ddc992d17f544f49f0a19efe5c871",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-backslash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-js/candidate-v4-diff-check.log",
+      "target": "logs/windows/diff-check.log",
+      "sourceSha256": "5d70e7e588b6349cb3456ad7ea773d22fb83cec45de0580aa9a0c70fd1bd6abe",
+      "publicSha256": "5d70e7e588b6349cb3456ad7ea773d22fb83cec45de0580aa9a0c70fd1bd6abe",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/candidate-size.log",
+      "target": "logs/windows/size-original-tooling-attempt.log",
+      "sourceSha256": "89265795d79485fb32fd5ed354918f1281a715461c53636d4dc3e946273442bd",
+      "publicSha256": "273c9b3806856b608aad99fabce465ec3c2eb1701c481abd135e1436c74a41d7",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 2
+        },
+        {
+          "rule": "workspace-backslash",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "source": "lane-js/final-regressions-baseline.log",
+      "target": "logs/baseline-32-regressions.log",
+      "sourceSha256": "4b4809ef30efb2f75cef800088b18dadd2945084ee0b2f3bed570df78d6d4de0",
+      "publicSha256": "bc5b21bbb4b5d28e05a94787e161297dd1fc07d0a77cf3810d89ca341ddd2479",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-backslash",
+          "count": 1
+        },
+        {
+          "rule": "workspace-slash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-js/linux-v4-gates.log",
+      "target": "logs/linux/v4-gates.log",
+      "sourceSha256": "c670e1097d88df638c50b2aafcf0a4a4cabf0c7a56a7ccac513d0ac725dbe973",
+      "publicSha256": "c670e1097d88df638c50b2aafcf0a4a4cabf0c7a56a7ccac513d0ac725dbe973",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/run-linux-v4.sh",
+      "target": "logs/linux/run-v4-gates.sh",
+      "sourceSha256": "75dc890225e4d91588e75ca7ccc2e5c00fe668c34a16764455f1c17843719b10",
+      "publicSha256": "75dc890225e4d91588e75ca7ccc2e5c00fe668c34a16764455f1c17843719b10",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/fork-ci-final/job-123868267312-full.log",
+      "target": "logs/fork-ci/job-123868267312.log",
+      "sourceSha256": "0f463617a1044985f9a48bd9194e13c0302a2c09823864d8dff98736cbfd4f64",
+      "publicSha256": "0f463617a1044985f9a48bd9194e13c0302a2c09823864d8dff98736cbfd4f64",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/fork-ci-final/committed-test-workflow.json",
+      "target": "logs/fork-ci/committed-test-workflow.json",
+      "sourceSha256": "d77d2f8cea6190b59ccf2277e96c01eba0b0c1529aac3db62fe84c35400b93c6",
+      "publicSha256": "d77d2f8cea6190b59ccf2277e96c01eba0b0c1529aac3db62fe84c35400b93c6",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/benchmark-removals-v4.cjs",
+      "target": "performance/benchmark-removals-v4.cjs",
+      "sourceSha256": "33a37609f17d9ef5fbb8408d884d772c9170e467a3db728d0b1edeedc80b2447",
+      "publicSha256": "33a37609f17d9ef5fbb8408d884d772c9170e467a3db728d0b1edeedc80b2447",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/benchmark-removals-v4.json",
+      "target": "performance/benchmark-removals-v4.json",
+      "sourceSha256": "4449374766cf63b075c785464c0692a36b0498008528c9afab920188b4a212d3",
+      "publicSha256": "4449374766cf63b075c785464c0692a36b0498008528c9afab920188b4a212d3",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/baseline-current.cjs",
+      "target": "performance/baseline-current.cjs",
+      "sourceSha256": "71551223dd7bd85d4b04392392585fcc8f39b875209372a1648e24c5540b3735",
+      "publicSha256": "71551223dd7bd85d4b04392392585fcc8f39b875209372a1648e24c5540b3735",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/experiment-v4.cjs",
+      "target": "performance/experiment-v4.cjs",
+      "sourceSha256": "4b2e57ef3042ecb4f1f125b7a9c2b542ba041e8d4949714ae116b10645158cba",
+      "publicSha256": "4b2e57ef3042ecb4f1f125b7a9c2b542ba041e8d4949714ae116b10645158cba",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/SOURCE_BINDING.json",
+      "target": "package/SOURCE_BINDING.json",
+      "sourceSha256": "de67241e3471cdc5db5483c0d3f8dd729661f7eeeb658d833c24afaf954c38dc",
+      "publicSha256": "de67241e3471cdc5db5483c0d3f8dd729661f7eeeb658d833c24afaf954c38dc",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/PACK_BINDING.json",
+      "target": "package/PACK_BINDING.json",
+      "sourceSha256": "f6e2f7541f6ab2b56ad471957770fd969808ea641e564425f3f9ca78648ffacb",
+      "publicSha256": "36397a007ad2c9b4c026ca5221244197027b14196566fd8d386ceff641e95aa7",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/FINAL_SOURCE_REVIEW.json",
+      "target": "package/FINAL_SOURCE_REVIEW.json",
+      "sourceSha256": "56bf835ce258e7971caaa196eccbd1a02c526618f36d235b18c951ac0c7254eb",
+      "publicSha256": "56bf835ce258e7971caaa196eccbd1a02c526618f36d235b18c951ac0c7254eb",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/INSTALLED_BYTE_COMPARISON.json",
+      "target": "package/INSTALLED_BYTE_COMPARISON.json",
+      "sourceSha256": "e0ad040db048bff57efa8edea59f6dde2558a230e6252508d383d9c839a700c3",
+      "publicSha256": "e0ad040db048bff57efa8edea59f6dde2558a230e6252508d383d9c839a700c3",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/WINDOWS_EXECUTION.json",
+      "target": "package/WINDOWS_EXECUTION.json",
+      "sourceSha256": "05707bfb94d7d9b3dbeaae10b906c454d79f0cafeb1f3241ecacfb31394cf429",
+      "publicSha256": "05707bfb94d7d9b3dbeaae10b906c454d79f0cafeb1f3241ecacfb31394cf429",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/DELIVERY.json",
+      "target": "package/DELIVERY.json",
+      "sourceSha256": "30236a343e94ef0f3b51c6be23e0e0f1eaf43e640380ac3172b9e726c6ae312e",
+      "publicSha256": "0c3906ca575dc242bae15fa6765683a022f607d3637c44520f9bce97ac1593a9",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 4
+        },
+        {
+          "rule": "workspace-slash",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/public-probe.cjs",
+      "target": "package/public-probe.cjs",
+      "sourceSha256": "5f2c5c37121c55e178a75e05bf193a17f0e3e0dd2479fd376c3213dc48874a29",
+      "publicSha256": "5f2c5c37121c55e178a75e05bf193a17f0e3e0dd2479fd376c3213dc48874a29",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/entry.cjs",
+      "target": "package/entry.cjs",
+      "sourceSha256": "3e41e7074b16c9adf9d3af5f0b3628030ad663931ff5a2627202a26d7d23b2c8",
+      "publicSha256": "3e41e7074b16c9adf9d3af5f0b3628030ad663931ff5a2627202a26d7d23b2c8",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/entry.mjs",
+      "target": "package/entry.mjs",
+      "sourceSha256": "119ee345dcc866451d021eadbe4d91195d67734f961a2433daba0b0679d36cd0",
+      "publicSha256": "119ee345dcc866451d021eadbe4d91195d67734f961a2433daba0b0679d36cd0",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux.sh",
+      "target": "package/linux.sh",
+      "sourceSha256": "284a8c773219b5281361198294a1592b113489bf83c478728d87393d26026f36",
+      "publicSha256": "284a8c773219b5281361198294a1592b113489bf83c478728d87393d26026f36",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/baseline-build.log",
+      "target": "package/baseline-build.log",
+      "sourceSha256": "19b24eac2972ee923a9aa9d7e2642016b6e397cbda53ea21e91273e3f1b0952e",
+      "publicSha256": "53d9bd4d569d9fe18c6de8618c4af45b8b9b0b48c2fe4d96f1fd27f5099383b9",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-backslash",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/baseline-pack.stdout.json",
+      "target": "package/baseline-pack.stdout.json",
+      "sourceSha256": "191142adc6b6703ed1c93920d04519f781dae0c3799d75d5b605997d31b36825",
+      "publicSha256": "191142adc6b6703ed1c93920d04519f781dae0c3799d75d5b605997d31b36825",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/candidate-pack.stdout.json",
+      "target": "package/candidate-pack.stdout.json",
+      "sourceSha256": "9047a8414b898e3348d3cb42aaa913a6673e758304df55e41a60544f0fe26e31",
+      "publicSha256": "9047a8414b898e3348d3cb42aaa913a6673e758304df55e41a60544f0fe26e31",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/final-normalized.ts",
+      "target": "package/final-normalized.ts",
+      "sourceSha256": "2491380d57aa942ebfd0c5d4525e7d4dc781a4cae7f687f0886ef4b850f24d3a",
+      "publicSha256": "2491380d57aa942ebfd0c5d4525e7d4dc781a4cae7f687f0886ef4b850f24d3a",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/reviewed-v4-normalized.ts",
+      "target": "package/reviewed-v4-normalized.ts",
+      "sourceSha256": "2491380d57aa942ebfd0c5d4525e7d4dc781a4cae7f687f0886ef4b850f24d3a",
+      "publicSha256": "2491380d57aa942ebfd0c5d4525e7d4dc781a4cae7f687f0886ef4b850f24d3a",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/artifacts/baseline/immer-10.0.3-beta.tgz",
+      "target": "package/artifacts/baseline/immer-10.0.3-beta.tgz",
+      "sourceSha256": "162aad55307dc22c70db762851b71d67e38b1dddbefdf438377fe47a4ca031a7",
+      "publicSha256": "162aad55307dc22c70db762851b71d67e38b1dddbefdf438377fe47a4ca031a7",
+      "binaryPreserved": true,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/windows-baseline-cjs-development.json",
+      "target": "package/logs/windows-baseline-cjs-development.json",
+      "sourceSha256": "d3752060307e04cb599888bcff2f07c771be701680874da79be24cc60947939a",
+      "publicSha256": "bd369e2ae71159025fa4657f41c55db10877db8a564adb9b5c2c0191bf7abf88",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/windows-baseline-cjs-production.json",
+      "target": "package/logs/windows-baseline-cjs-production.json",
+      "sourceSha256": "a0bdb030ac84eab29f7853e1f766d4774043db5b9a0ed81f9e8aeca89e1b9793",
+      "publicSha256": "cedea833fef9cf3fc0d4630b3524572162f5ec3ffacc5762a38d73357d171c11",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/windows-baseline-esm-development.json",
+      "target": "package/logs/windows-baseline-esm-development.json",
+      "sourceSha256": "fbd7568f9aa57cc8e749bd5f3b46f55e144e3fcfcfb68f8b52bc612875404d34",
+      "publicSha256": "846d79194f65cd7df9534fc1ddeb56dda46982cac33281aa45a13a38e8ba0a51",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-slash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/windows-baseline-install.stdout.log",
+      "target": "package/logs/windows-baseline-install.stdout.log",
+      "sourceSha256": "4875853dfe6eb16e715333c4c0ab7952d39708268bad193c065229e1e9aedde6",
+      "publicSha256": "4875853dfe6eb16e715333c4c0ab7952d39708268bad193c065229e1e9aedde6",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/windows-baseline-install.stderr.log",
+      "target": "package/logs/windows-baseline-install.stderr.log",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publicSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/windows-baseline/package.json",
+      "target": "package/installed-metadata/windows-baseline/package.json",
+      "sourceSha256": "caebfd16d8524d86204e87f6d6a9e1f8c81f8924272a36ecf18db2be88cd4956",
+      "publicSha256": "caebfd16d8524d86204e87f6d6a9e1f8c81f8924272a36ecf18db2be88cd4956",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/windows-baseline/package-lock.json",
+      "target": "package/installed-metadata/windows-baseline/package-lock.json",
+      "sourceSha256": "0d885001d13aec20a9a80c05f9048b0d09a238fdeeb5c7506fba974c1640f88e",
+      "publicSha256": "0d885001d13aec20a9a80c05f9048b0d09a238fdeeb5c7506fba974c1640f88e",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-baseline-cjs-development.json",
+      "target": "package/logs/linux-baseline-cjs-development.json",
+      "sourceSha256": "c0cb4f8b36f51b7b697029a373a1184a592d0b0d49df25e7b6a10a57c7be767e",
+      "publicSha256": "c0cb4f8b36f51b7b697029a373a1184a592d0b0d49df25e7b6a10a57c7be767e",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-baseline-cjs-production.json",
+      "target": "package/logs/linux-baseline-cjs-production.json",
+      "sourceSha256": "148efcdb456feb4e9d1591cb2e31bc53fdb53e6a8b33133e2f5ca036834f0540",
+      "publicSha256": "148efcdb456feb4e9d1591cb2e31bc53fdb53e6a8b33133e2f5ca036834f0540",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-baseline-esm-development.json",
+      "target": "package/logs/linux-baseline-esm-development.json",
+      "sourceSha256": "01f2c2db3e9c109db5369aee7a311729b57e47f7267617f4c106b540095abcd7",
+      "publicSha256": "01f2c2db3e9c109db5369aee7a311729b57e47f7267617f4c106b540095abcd7",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-baseline-install.stdout.log",
+      "target": "package/logs/linux-baseline-install.stdout.log",
+      "sourceSha256": "583e9c462c7270cbffdb9ce684423305842874dbc2b146d9514230518c1654bf",
+      "publicSha256": "583e9c462c7270cbffdb9ce684423305842874dbc2b146d9514230518c1654bf",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-baseline-install.stderr.log",
+      "target": "package/logs/linux-baseline-install.stderr.log",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publicSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/linux-baseline/package.json",
+      "target": "package/installed-metadata/linux-baseline/package.json",
+      "sourceSha256": "caebfd16d8524d86204e87f6d6a9e1f8c81f8924272a36ecf18db2be88cd4956",
+      "publicSha256": "caebfd16d8524d86204e87f6d6a9e1f8c81f8924272a36ecf18db2be88cd4956",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/linux-baseline/package-lock.json",
+      "target": "package/installed-metadata/linux-baseline/package-lock.json",
+      "sourceSha256": "0d885001d13aec20a9a80c05f9048b0d09a238fdeeb5c7506fba974c1640f88e",
+      "publicSha256": "0d885001d13aec20a9a80c05f9048b0d09a238fdeeb5c7506fba974c1640f88e",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/artifacts/candidate/immer-10.0.3-beta.tgz",
+      "target": "package/artifacts/candidate/immer-10.0.3-beta.tgz",
+      "sourceSha256": "f52fc1ada2356097444d2ff08993d472b26d8b2be983b149e92ab21639ea84d3",
+      "publicSha256": "f52fc1ada2356097444d2ff08993d472b26d8b2be983b149e92ab21639ea84d3",
+      "binaryPreserved": true,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/windows-candidate-cjs-development.json",
+      "target": "package/logs/windows-candidate-cjs-development.json",
+      "sourceSha256": "dd038efb9c5baa2c6d91c4cc479461cc7fe23128a1320a220dbefd9508147ec3",
+      "publicSha256": "c592b4d33b1d9fbe688e96ff2057f91c1cbfffe33c0e8d3ba8c1283bf49f239e",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/windows-candidate-cjs-production.json",
+      "target": "package/logs/windows-candidate-cjs-production.json",
+      "sourceSha256": "793a263352a976ec29397991c38e926c75754a66253407fbb865059f46874232",
+      "publicSha256": "7e77986a45e620be42fce39e462cfe6e4d27caafcb89642a4da4bfd0ac6f6f96",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/windows-candidate-esm-development.json",
+      "target": "package/logs/windows-candidate-esm-development.json",
+      "sourceSha256": "04ef412e638706d8d17d18df375f26a156cedced877ccee4e08ff4641e453e9a",
+      "publicSha256": "7559e8add57a83bcc9bafd0264777b7d9a279208905dacf9c9b867a1795d73c7",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-slash",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-package/windows-candidate-install.stdout.log",
+      "target": "package/logs/windows-candidate-install.stdout.log",
+      "sourceSha256": "b8e37c977f35873827e1eafab1e46114e47626f237885b799f22191b3f0a44fe",
+      "publicSha256": "b8e37c977f35873827e1eafab1e46114e47626f237885b799f22191b3f0a44fe",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/windows-candidate-install.stderr.log",
+      "target": "package/logs/windows-candidate-install.stderr.log",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publicSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/windows-candidate/package.json",
+      "target": "package/installed-metadata/windows-candidate/package.json",
+      "sourceSha256": "9707f961994553be91836deb690405e0d7bab12209e063be2deeefbe20814d13",
+      "publicSha256": "9707f961994553be91836deb690405e0d7bab12209e063be2deeefbe20814d13",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/windows-candidate/package-lock.json",
+      "target": "package/installed-metadata/windows-candidate/package-lock.json",
+      "sourceSha256": "003d25cbd5a898ef81219fc515a02d498dcc7a21214e3d8d62374d8dad19f411",
+      "publicSha256": "003d25cbd5a898ef81219fc515a02d498dcc7a21214e3d8d62374d8dad19f411",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-candidate-cjs-development.json",
+      "target": "package/logs/linux-candidate-cjs-development.json",
+      "sourceSha256": "a98c3df2c71e587a222157a6d47dae361db33cb86e930c7a2f9fb454ad0340eb",
+      "publicSha256": "a98c3df2c71e587a222157a6d47dae361db33cb86e930c7a2f9fb454ad0340eb",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-candidate-cjs-production.json",
+      "target": "package/logs/linux-candidate-cjs-production.json",
+      "sourceSha256": "f4c16da0f91f9c990becd8f46f1d3f3a821e87b2c573b6bcfa636b17d6e3b0bf",
+      "publicSha256": "f4c16da0f91f9c990becd8f46f1d3f3a821e87b2c573b6bcfa636b17d6e3b0bf",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-candidate-esm-development.json",
+      "target": "package/logs/linux-candidate-esm-development.json",
+      "sourceSha256": "415cce932fb5700f7a6ee56babe6306e4c6635ea884f0700bdf39aa1bb31158b",
+      "publicSha256": "415cce932fb5700f7a6ee56babe6306e4c6635ea884f0700bdf39aa1bb31158b",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-candidate-install.stdout.log",
+      "target": "package/logs/linux-candidate-install.stdout.log",
+      "sourceSha256": "774abcee443429e229c392992ec5a598ef877d16301a911a53308e3433cba4c5",
+      "publicSha256": "774abcee443429e229c392992ec5a598ef877d16301a911a53308e3433cba4c5",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/linux-candidate-install.stderr.log",
+      "target": "package/logs/linux-candidate-install.stderr.log",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publicSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/linux-candidate/package.json",
+      "target": "package/installed-metadata/linux-candidate/package.json",
+      "sourceSha256": "9707f961994553be91836deb690405e0d7bab12209e063be2deeefbe20814d13",
+      "publicSha256": "9707f961994553be91836deb690405e0d7bab12209e063be2deeefbe20814d13",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-package/consumers/linux-candidate/package-lock.json",
+      "target": "package/installed-metadata/linux-candidate/package-lock.json",
+      "sourceSha256": "003d25cbd5a898ef81219fc515a02d498dcc7a21214e3d8d62374d8dad19f411",
+      "publicSha256": "003d25cbd5a898ef81219fc515a02d498dcc7a21214e3d8d62374d8dad19f411",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/REVIEW_V4.json",
+      "target": "review/REVIEW_V4.json",
+      "sourceSha256": "aed07416d32317ecf96e82dfde93e55204de8155e8e4e1bfa910efb00ba0d133",
+      "publicSha256": "aed07416d32317ecf96e82dfde93e55204de8155e8e4e1bfa910efb00ba0d133",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/BASELINE_SOURCE_MANIFEST.json",
+      "target": "review/BASELINE_SOURCE_MANIFEST.json",
+      "sourceSha256": "99384ceb5b6c5cdeac486e1dfb1058932cf309020638d36ae9f6ec46002abc04",
+      "publicSha256": "99384ceb5b6c5cdeac486e1dfb1058932cf309020638d36ae9f6ec46002abc04",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/CANDIDATE_V4_SOURCE_MANIFEST.json",
+      "target": "review/CANDIDATE_V4_SOURCE_MANIFEST.json",
+      "sourceSha256": "0ef744be0a2d2d2f537a4a6a2009aa8e70be90e99d88af40af664412dd1f1667",
+      "publicSha256": "0ef744be0a2d2d2f537a4a6a2009aa8e70be90e99d88af40af664412dd1f1667",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/focused-v4.cjs",
+      "target": "review/focused-v4.cjs",
+      "sourceSha256": "937f29a474c670da7d2bfeab2d001bf53ac65194e337e551c017cc0316c3ef12",
+      "publicSha256": "937f29a474c670da7d2bfeab2d001bf53ac65194e337e551c017cc0316c3ef12",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/focused-v4.log",
+      "target": "review/focused-v4.log",
+      "sourceSha256": "c4bc9967405f94eee9e3005c853b9b769c48caa9960c01980024ca33166b8d6c",
+      "publicSha256": "c4bc9967405f94eee9e3005c853b9b769c48caa9960c01980024ca33166b8d6c",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/focused-v4-results.json",
+      "target": "review/focused-v4-results.json",
+      "sourceSha256": "da48a17f4cd3557175413b5adbf3c9252992db6025fedeedbb99721194d0c594",
+      "publicSha256": "9012f03a66982f40104676dfbd101f6437b3ed883564456e8353f6c259c34b0f",
+      "binaryPreserved": false,
+      "replacements": [
+        {
+          "rule": "workspace-json-backslash",
+          "count": 54
+        }
+      ]
+    },
+    {
+      "source": "lane-python/immer-review/edge-v4.cjs",
+      "target": "review/edge-v4.cjs",
+      "sourceSha256": "dbb9d3cb2de5a81c972c13aa4bd464b5a981022f4240235dc419905c43f6175a",
+      "publicSha256": "dbb9d3cb2de5a81c972c13aa4bd464b5a981022f4240235dc419905c43f6175a",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/edge-v4.log",
+      "target": "review/edge-v4.log",
+      "sourceSha256": "b688a79d6872406ee6688404b77596e06db9fabaf348b639fa9c26e81ceacf3e",
+      "publicSha256": "b688a79d6872406ee6688404b77596e06db9fabaf348b639fa9c26e81ceacf3e",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/getter-regression-v4.cjs",
+      "target": "review/getter-regression-v4.cjs",
+      "sourceSha256": "2e483f7c5c20e292a785d58cef570d6a7d6ae851a77bc01f8acae1ce47b0d303",
+      "publicSha256": "2e483f7c5c20e292a785d58cef570d6a7d6ae851a77bc01f8acae1ce47b0d303",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/getter-regression-v4.log",
+      "target": "review/getter-regression-v4.log",
+      "sourceSha256": "0724e3a94fc6f82d2a12a3e8530e9c9be9a99160697f24140fcee115c2417e43",
+      "publicSha256": "0724e3a94fc6f82d2a12a3e8530e9c9be9a99160697f24140fcee115c2417e43",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/nested-operation-v4.cjs",
+      "target": "review/nested-operation-v4.cjs",
+      "sourceSha256": "6b1cb41884a62a71507091c20307347fa61f57644add2c09cd0a6192f3db8107",
+      "publicSha256": "6b1cb41884a62a71507091c20307347fa61f57644add2c09cd0a6192f3db8107",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/nested-operation-v4.log",
+      "target": "review/nested-operation-v4.log",
+      "sourceSha256": "09cf7060851a994afef857c1baad799c72442248c4391edc4ba1feeeee8286ec",
+      "publicSha256": "09cf7060851a994afef857c1baad799c72442248c4391edc4ba1feeeee8286ec",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/baseline.cjs",
+      "target": "review/baseline.cjs",
+      "sourceSha256": "93cef127de1047b1ec624ed1007d19cba8d42916ca7075722258f676678d3179",
+      "publicSha256": "93cef127de1047b1ec624ed1007d19cba8d42916ca7075722258f676678d3179",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-review/candidate-v4.cjs",
+      "target": "review/candidate-v4.cjs",
+      "sourceSha256": "4b2e57ef3042ecb4f1f125b7a9c2b542ba041e8d4949714ae116b10645158cba",
+      "publicSha256": "4b2e57ef3042ecb4f1f125b7a9c2b542ba041e8d4949714ae116b10645158cba",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/fork-ci-final/SUMMARY.json",
+      "target": "logs/fork-ci/SUMMARY.json",
+      "sourceSha256": "87dc3329e23094a728c2ba88129852831c8cdd1acc406047f00e16ef2784098e",
+      "publicSha256": "87dc3329e23094a728c2ba88129852831c8cdd1acc406047f00e16ef2784098e",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-js/fork-ci-final/EXCERPTS.md",
+      "target": "logs/fork-ci/EXCERPTS.md",
+      "sourceSha256": "2fe83999bb35c123272a50960b011f25564ed9226d7cc0c3db8718545735fb25",
+      "publicSha256": "2fe83999bb35c123272a50960b011f25564ed9226d7cc0c3db8718545735fb25",
+      "binaryPreserved": false,
+      "replacements": []
+    },
+    {
+      "source": "lane-python/immer-publication-prep/README.md",
+      "target": "README.md",
+      "sourceSha256": "ce38facc9b6de1508a7ce081c15c468a95e2e5f5660436cf280270e33fcce3cc",
+      "publicSha256": "ce38facc9b6de1508a7ce081c15c468a95e2e5f5660436cf280270e33fcce3cc",
+      "binaryPreserved": false,
+      "replacements": [],
+      "generated": true
+    },
+    {
+      "source": "lane-python/immer-publication-prep/CREDENTIALS_SCAN.json",
+      "target": "CREDENTIALS_SCAN.json",
+      "sourceSha256": "f2fd8d7d818f8003290b74084c2968dd912929af98fd314e8de63f95dd938821",
+      "publicSha256": "f2fd8d7d818f8003290b74084c2968dd912929af98fd314e8de63f95dd938821",
+      "binaryPreserved": false,
+      "replacements": [],
+      "generated": true
+    }
+  ]
+}

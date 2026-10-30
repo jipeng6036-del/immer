@@ -1,0 +1,54 @@
+yarn run v1.22.22
+(node:51016) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ tsup
+CLI Building entry: {"immer":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.legacy-esm":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.production":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.cjs.development":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.cjs.production":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-python\immer-package\baseline-stage\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-python\immer-package\baseline-stage\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-python\immer-package\baseline-stage\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-python\immer-package\baseline-stage\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-python\immer-package\baseline-stage\tsup.config.ts
+CLI Target: es2020
+CLI Target: es2020
+ESM Build start
+CLI Target: es2017
+ESM Build start
+CLI Target: es2020
+CJS Build start
+CLI Target: es2020
+CJS Build start
+CLI Cleaning output folder
+ESM Build start
+ESM dist\immer.mjs     51.47 KB
+ESM dist\immer.mjs.map 126.22 KB
+ESM ⚡️ Build success in 96ms
+ESM dist\immer.production.mjs     15.88 KB
+ESM dist\immer.production.mjs.map 129.71 KB
+ESM ⚡️ Build success in 102ms
+ESM dist\immer.legacy-esm.js     53.18 KB
+ESM dist\immer.legacy-esm.js.map 126.40 KB
+ESM ⚡️ Build success in 118ms
+CJS dist\cjs\immer.cjs.development.js     53.17 KB
+CJS dist\cjs\immer.cjs.development.js.map 126.43 KB
+CJS ⚡️ Build success in 115ms
+CJS dist\cjs\immer.cjs.production.js     16.65 KB
+CJS dist\cjs\immer.cjs.production.js.map 130.39 KB
+CJS ⚡️ Build success in 116ms
+DTS Build start
+DTS ⚡️ Build success in 728ms
+DTS dist\immer.d.ts 16.66 KB
+Done in 1.25s.

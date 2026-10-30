@@ -1,0 +1,86 @@
+yarn run v1.22.22
+(node:44352) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ yarn build && yarn import-size --report . produce enableMapSet enablePatches enableArrayMethods
+(node:44788) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ tsup
+CLI Building entry: {"immer":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.legacy-esm":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.production":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.cjs.development":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI Building entry: {"immer.cjs.production":"src/immer.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\tsup.config.ts
+CLI tsup v6.7.0
+CLI Using tsup config: <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\tsup.config.ts
+CLI Target: es2020
+CLI Target: es2017
+ESM Build start
+CLI Target: es2020
+ESM Build start
+CLI Target: es2020
+CJS Build start
+CLI Target: es2020
+CJS Build start
+CLI Cleaning output folder
+ESM Build start
+ESM dist\immer.legacy-esm.js     53.77 KB
+ESM dist\immer.legacy-esm.js.map 132.69 KB
+ESM ⚡️ Build success in 111ms
+ESM dist\immer.production.mjs     16.09 KB
+ESM dist\immer.production.mjs.map 136.15 KB
+ESM ⚡️ Build success in 114ms
+CJS dist\cjs\immer.cjs.development.js     53.75 KB
+CJS dist\cjs\immer.cjs.development.js.map 132.71 KB
+CJS ⚡️ Build success in 114ms
+ESM dist\immer.mjs     52.05 KB
+ESM dist\immer.mjs.map 132.51 KB
+ESM ⚡️ Build success in 107ms
+CJS dist\cjs\immer.cjs.production.js     16.86 KB
+CJS dist\cjs\immer.cjs.production.js.map 136.83 KB
+CJS ⚡️ Build success in 113ms
+DTS Build start
+DTS ⚡️ Build success in 805ms
+DTS dist\immer.d.ts 16.66 KB
+(node:45948) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\node_modules\.bin\import-size --report . produce enableMapSet enablePatches enableArrayMethods
+node:fs:1868
+  binding.symlink(
+          ^
+
+Error: EPERM: operation not permitted, symlink '<workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream' -> '<workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\node_modules\__importsizelink0.7003797105371726__'
+    at Object.symlinkSync (node:fs:1868:11)
+    at determineImportName (<workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\node_modules\import-size\index.js:101:6)
+    at main (<workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\node_modules\import-size\index.js:130:44)
+    at Object.<anonymous> (<workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\node_modules\import-size\index.js:185:1)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+    at Module._load (node:internal/modules/cjs/loader:1335:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5) {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'symlink',
+  path: '<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-js\\upstream',
+  dest: '<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-js\\upstream\\node_modules\\__importsizelink0.7003797105371726__'
+}
+
+Node.js v24.14.0
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-30T03:18:43.664172+00:00",
+  "repository": "jipeng6036-del/immer",
+  "head": "d54c38736b4393720c2f47e0cc26ef320fb9674d",
+  "runId": 40995723319,
+  "url": "https://github.com/jipeng6036-del/immer/actions/runs/40995723319",
+  "event": "push",
+  "branch": "ci/array-removals-d54c387-20261030",
+  "workflow": "Test",
+  "workflowBlob": "2aaea3b8ee61f6f073c0e03ee1e5bb68c564d88c",
+  "workflowUnchangedFromUpstream": true,
+  "runConclusion": "success",
+  "jobCount": 1,
+  "jobs": [
+    {
+      "id": 123868267312,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-30T03:08:58Z",
+          "completed_at": "2026-10-30T03:09:03Z"
+        },
+        {
+          "name": "Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-30T03:09:03Z",
+          "completed_at": "2026-10-30T03:09:04Z"
+        },
+        {
+          "name": "Run actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-30T03:09:04Z",
+          "completed_at": "2026-10-30T03:09:09Z"
+        },
+        {
+          "name": "yarn install",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-30T03:09:09Z",
+          "completed_at": "2026-10-30T03:09:33Z"
+        },
+        {
+          "name": "test",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-30T03:09:33Z",
+          "completed_at": "2026-10-30T03:09:47Z"
+        },
+        {
+          "name": "coverage test",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-30T03:09:47Z",
+          "completed_at": "2026-10-30T03:09:52Z"
+        },
+        {
+          "name": "perf test",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-30T03:09:52Z",
+          "completed_at": "2026-10-30T03:10:00Z"
+        },
+        {
+          "name": "Run coverallsapp/github-action@8cbef1dea373ebce56de0a14c68d6267baa10b44",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-30T03:10:00Z",
+          "completed_at": "2026-10-30T03:10:03Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-10-30T03:10:03Z",
+          "completed_at": "2026-10-30T03:10:03Z"
+        },
+        {
+          "name": "Post Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-30T03:10:03Z",
+          "completed_at": "2026-10-30T03:10:03Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-30T03:10:03Z",
+          "completed_at": "2026-10-30T03:10:03Z"
+        }
+      ]
+    }
+  ],
+  "verifiedFromRawLog": {
+    "checkoutExactHead": true,
+    "node": "24.22.1",
+    "yarn": "1.22.22",
+    "frozenInstallExecuted": true,
+    "sourceTests": {
+      "passed": 4244,
+      "skipped": 8
+    },
+    "builtForms": [
+      "ESM",
+      "legacy ESM",
+      "production ESM",
+      "development CJS",
+      "production CJS",
+      "DTS"
+    ],
+    "productionTests": {
+      "passed": 3693,
+      "skipped": 8
+    },
+    "flowErrors": 0,
+    "coverageTests": {
+      "passed": 4244,
+      "skipped": 8
+    },
+    "performanceScripts": [
+      "add-data.mjs",
+      "todo.mjs",
+      "incremental.mjs",
+      "large-obj.mjs"
+    ],
+    "nonzeroPerformanceOutputPresent": true,
+    "coveralls": {
+      "actionStep": "success",
+      "lcovFileObserved": "./coverage/lcov.info",
+      "serverUploadIdObserved": false,
+      "serverResultUrlObserved": false,
+      "interpretation": "Action step succeeded using the lcov file; separate server-side ingestion/coverage UI was not independently verified."
+    }
+  },
+  "rawLog": "job-123868267312-full.log",
+  "rawLogSHA256": "0f463617a1044985f9a48bd9194e13c0302a2c09823864d8dff98736cbfd4f64",
+  "plainLog": "job-log-ansi-stripped.txt",
+  "limits": [
+    "Fork CI success is not upstream review, approval, merge or release.",
+    "Eight existing skips in each source/production suite remain skips."
+  ],
+  "warnings": [
+    "@vitest/coverage-v8 peer-version warning",
+    "Yarn workspace warning",
+    "Deprecated set-output",
+    "Pinned Node20 actions forced to Node24"
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "method": "pop",
+    "threw": true,
+    "afterDraft": false,
+    "length": 2
+  },
+  {
+    "method": "shift",
+    "threw": true,
+    "afterDraft": false,
+    "length": 2
+  },
+  {
+    "method": "splice",
+    "threw": true,
+    "afterDraft": false,
+    "length": 2
+  }
+]

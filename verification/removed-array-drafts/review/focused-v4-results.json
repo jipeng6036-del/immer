@@ -1,0 +1,285 @@
+[
+  {
+    "name": "drain-move-and-patches:pop:freeze=false",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:pop:freeze=false",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    done: [],\n    todo: [\n      {\n        deep: {\n+         count: 1\n-         count: 0\n        },\n        id: 0\n      },\n      {\n        deep: {\n+         count: 2\n-         count: 0\n        },\n        id: 1\n      },\n      {\n        deep: {\n+         count: 3\n-         count: 0\n        },\n        id: 2\n      },\n      {\n        deep: {\n+         count: 4\n-         count: 0\n        },\n        id: 3\n      },\n      {\n        deep: {\n+         count: 5\n-         count: 0\n        },\n        id: 4\n      }\n    ]\n  }\n\n    at move (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:440)\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:133\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:74)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+  },
+  {
+    "name": "drain-move-and-patches:pop:freeze=false",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:pop:freeze=true",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:pop:freeze=true",
+    "mode": "baseline",
+    "pass": false,
+    "error": "TypeError: Cannot assign to read only property 'count' of object '#<Object>'\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:426\n    at Immer2.produce (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\baseline.cjs:742:18)\n    at Immer2.produceWithPatches (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\baseline.cjs:772:25)\n    at move (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:267)\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:133\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:74)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)"
+  },
+  {
+    "name": "drain-move-and-patches:pop:freeze=true",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:shift:freeze=false",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:shift:freeze=false",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    done: [],\n    todo: [\n      {\n        deep: {\n+         count: 1\n-         count: 0\n        },\n        id: 0\n      },\n      {\n        deep: {\n+         count: 2\n-         count: 0\n        },\n        id: 1\n      },\n      {\n        deep: {\n+         count: 3\n-         count: 0\n        },\n        id: 2\n      },\n      {\n        deep: {\n+         count: 4\n-         count: 0\n        },\n        id: 3\n      },\n      {\n        deep: {\n+         count: 5\n-         count: 0\n        },\n        id: 4\n      }\n    ]\n  }\n\n    at move (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:440)\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:133\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:74)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+  },
+  {
+    "name": "drain-move-and-patches:shift:freeze=false",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:shift:freeze=true",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:shift:freeze=true",
+    "mode": "baseline",
+    "pass": false,
+    "error": "TypeError: Cannot assign to read only property 'count' of object '#<Object>'\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:426\n    at Immer2.produce (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\baseline.cjs:742:18)\n    at Immer2.produceWithPatches (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\baseline.cjs:772:25)\n    at move (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:267)\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:133\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:74)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)"
+  },
+  {
+    "name": "drain-move-and-patches:shift:freeze=true",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:splice:freeze=false",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:splice:freeze=false",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    done: [],\n    todo: [\n      {\n        deep: {\n+         count: 1\n-         count: 0\n        },\n        id: 0\n      },\n      {\n        deep: {\n+         count: 2\n-         count: 0\n        },\n        id: 1\n      },\n      {\n        deep: {\n+         count: 3\n-         count: 0\n        },\n        id: 2\n      },\n      {\n        deep: {\n+         count: 4\n-         count: 0\n        },\n        id: 3\n      },\n      {\n        deep: {\n+         count: 5\n-         count: 0\n        },\n        id: 4\n      }\n    ]\n  }\n\n    at move (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:440)\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:133\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:74)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+  },
+  {
+    "name": "drain-move-and-patches:splice:freeze=false",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:splice:freeze=true",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "drain-move-and-patches:splice:freeze=true",
+    "mode": "baseline",
+    "pass": false,
+    "error": "TypeError: Cannot assign to read only property 'count' of object '#<Object>'\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:426\n    at Immer2.produce (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\baseline.cjs:742:18)\n    at Immer2.produceWithPatches (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\baseline.cjs:772:25)\n    at move (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:7:267)\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:133\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:8:74)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)"
+  },
+  {
+    "name": "drain-move-and-patches:splice:freeze=true",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "remove-mutate-reinsert-remove-again",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "remove-mutate-reinsert-remove-again",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n    a: [\n      {\n+       n: 2\n-       n: 0\n      },\n      {\n+       n: 11\n-       n: 10\n      }\n    ],\n    b: []\n  }\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:9:328\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:9:1)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "remove-mutate-reinsert-remove-again",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:pop",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:pop",
+    "mode": "baseline",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:pop",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:shift",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:shift",
+    "mode": "baseline",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:shift",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:splice",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:splice",
+    "mode": "baseline",
+    "pass": true
+  },
+  {
+    "name": "previous-draft-identity:splice",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "reorder-before-removal",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "reorder-before-removal",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   10,\n-   0,\n    1,\n+   20\n-   2\n  ]\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:11:234\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:11:1)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "reorder-before-removal",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "removed-map-set-array-immerable",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "removed-map-set-array-immerable",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:12:399\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:12:1)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "removed-map-set-array-immerable",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "external-remains-undrafted",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "external-remains-undrafted",
+    "mode": "baseline",
+    "pass": true
+  },
+  {
+    "name": "external-remains-undrafted",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "sparse-pop",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "sparse-pop",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:14:391\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:14:46)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "sparse-pop",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "sparse-shift",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "sparse-shift",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:14:391\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:14:46)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "sparse-shift",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "sparse-splice",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "sparse-splice",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:14:391\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:14:46)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "sparse-splice",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "empty-noop-primitives",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "empty-noop-primitives",
+    "mode": "baseline",
+    "pass": true
+  },
+  {
+    "name": "empty-noop-primitives",
+    "mode": "candidate",
+    "pass": true
+  },
+  {
+    "name": "splice-coercion-side-effects-removal-only",
+    "mode": "plain",
+    "pass": true
+  },
+  {
+    "name": "splice-coercion-side-effects-removal-only",
+    "mode": "baseline",
+    "pass": false,
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n2 !== 1\n\n    at <workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:16:312\n    at scenario (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:6:102)\n    at Object.<anonymous> (<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-review\\focused-v4.cjs:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1812:14)\n    at Object..js (node:internal/modules/cjs/loader:1943:10)\n    at Module.load (node:internal/modules/cjs/loader:1533:32)\n    at Module._load (node:internal/modules/cjs/loader:1335:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  {
+    "name": "splice-coercion-side-effects-removal-only",
+    "mode": "candidate",
+    "pass": true
+  }
+]

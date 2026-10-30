@@ -1,0 +1,436 @@
+﻿2026-10-30T03:08:58.9764647Z Current runner version: '2.338.0'
+2026-10-30T03:08:58.9793852Z ##[group]Runner Image Provisioner
+2026-10-30T03:08:58.9794814Z Hosted Compute Agent
+2026-10-30T03:08:58.9795465Z Version: 20261021.618
+2026-10-30T03:08:58.9796110Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-30T03:08:58.9796915Z Build Date: 2026-10-21T00:45:21Z
+2026-10-30T03:08:58.9797626Z Worker ID: {e61ccc7f-3393-4e02-9317-d941da3fd08e}
+2026-10-30T03:08:58.9798455Z Region: centralus
+2026-10-30T03:08:58.9799193Z Cloud: Azure
+2026-10-30T03:08:58.9799719Z ##[endgroup]
+2026-10-30T03:08:58.9801751Z ##[group]Operating System
+2026-10-30T03:08:58.9802517Z Ubuntu
+2026-10-30T03:08:58.9803217Z 24.04.5
+2026-10-30T03:08:58.9803865Z LTS
+2026-10-30T03:08:58.9804384Z ##[endgroup]
+2026-10-30T03:08:58.9805052Z ##[group]Runner Image
+2026-10-30T03:08:58.9805692Z Image: ubuntu-24.04
+2026-10-30T03:08:58.9806341Z Version: 20261025.353.1
+2026-10-30T03:08:58.9807645Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-30T03:08:58.9809276Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-10-30T03:08:58.9810278Z ##[endgroup]
+2026-10-30T03:08:58.9812447Z ##[group]GITHUB_TOKEN Permissions
+2026-10-30T03:08:58.9814657Z Contents: read
+2026-10-30T03:08:58.9815422Z Metadata: read
+2026-10-30T03:08:58.9816043Z ##[endgroup]
+2026-10-30T03:08:58.9818239Z Secret source: Actions
+2026-10-30T03:08:58.9819342Z Cache mode: write
+2026-10-30T03:08:58.9820062Z Prepare workflow directory
+2026-10-30T03:08:59.0174101Z Prepare all required actions
+2026-10-30T03:08:59.0224951Z Getting action download info
+2026-10-30T03:08:59.2991565Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-10-30T03:08:59.4981555Z Download action repository 'actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e' (SHA:48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e)
+2026-10-30T03:08:59.6647350Z Download action repository 'coverallsapp/github-action@8cbef1dea373ebce56de0a14c68d6267baa10b44' (SHA:8cbef1dea373ebce56de0a14c68d6267baa10b44)
+2026-10-30T03:09:03.6053312Z Complete job name: build
+2026-10-30T03:09:03.7124527Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+2026-10-30T03:09:03.7125818Z with:
+2026-10-30T03:09:03.7126292Z   persist-credentials: false
+2026-10-30T03:09:03.7126874Z   repository: jipeng6036-del/immer
+2026-10-30T03:09:03.7131406Z   token: ***
+2026-10-30T03:09:03.7131888Z   ssh-strict: true
+2026-10-30T03:09:03.7132359Z   ssh-user: git
+2026-10-30T03:09:03.7132790Z   clean: true
+2026-10-30T03:09:03.7133243Z   sparse-checkout-cone-mode: true
+2026-10-30T03:09:03.7133768Z   fetch-depth: 1
+2026-10-30T03:09:03.7134187Z   fetch-tags: false
+2026-10-30T03:09:03.7134644Z   show-progress: true
+2026-10-30T03:09:03.7135112Z   lfs: false
+2026-10-30T03:09:03.7135599Z   submodules: false
+2026-10-30T03:09:03.7136118Z   set-safe-directory: true
+2026-10-30T03:09:03.7137076Z ##[endgroup]
+2026-10-30T03:09:04.0462637Z Syncing repository: jipeng6036-del/immer
+2026-10-30T03:09:04.0464337Z ##[group]Getting Git version info
+2026-10-30T03:09:04.0465079Z Working directory is '/home/runner/work/immer/immer'
+2026-10-30T03:09:04.0466051Z [command]/usr/bin/git version
+2026-10-30T03:09:04.0610018Z git version 2.56.0
+2026-10-30T03:09:04.0644333Z ##[endgroup]
+2026-10-30T03:09:04.0671168Z Temporarily overriding HOME='/home/runner/work/_temp/3a898ae9-4c95-49fc-9b8f-51a1f75530c4' before making global git config changes
+2026-10-30T03:09:04.0681339Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-30T03:09:04.0682461Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/immer/immer
+2026-10-30T03:09:04.0762974Z Deleting the contents of '/home/runner/work/immer/immer'
+2026-10-30T03:09:04.0765768Z ##[group]Initializing the repository
+2026-10-30T03:09:04.0767169Z [command]/usr/bin/git init /home/runner/work/immer/immer
+2026-10-30T03:09:04.0902189Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-30T03:09:04.0903610Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-30T03:09:04.0904570Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-30T03:09:04.0905340Z hint: call:
+2026-10-30T03:09:04.0905753Z hint:
+2026-10-30T03:09:04.0906341Z hint: 	git config --global init.defaultBranch <name>
+2026-10-30T03:09:04.0906966Z hint:
+2026-10-30T03:09:04.0907565Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-30T03:09:04.0908498Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-30T03:09:04.0909211Z hint:
+2026-10-30T03:09:04.0909609Z hint: 	git branch -m <name>
+2026-10-30T03:09:04.0910255Z hint:
+2026-10-30T03:09:04.0911220Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-30T03:09:04.0918054Z Initialized empty Git repository in /home/runner/work/immer/immer/.git/
+2026-10-30T03:09:04.0932467Z [command]/usr/bin/git remote add origin https://github.com/jipeng6036-del/immer
+2026-10-30T03:09:04.0990253Z ##[endgroup]
+2026-10-30T03:09:04.0991471Z ##[group]Disabling automatic garbage collection
+2026-10-30T03:09:04.0996078Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-30T03:09:04.1036915Z ##[endgroup]
+2026-10-30T03:09:04.1038141Z ##[group]Setting up auth
+2026-10-30T03:09:04.1046500Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-30T03:09:04.1088518Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-30T03:09:04.1557818Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-30T03:09:04.1619597Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-30T03:09:04.1866390Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-30T03:09:04.1914365Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-30T03:09:04.2168217Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-30T03:09:04.2221877Z ##[endgroup]
+2026-10-30T03:09:04.2222646Z ##[group]Fetching the repository
+2026-10-30T03:09:04.2236113Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +d54c38736b4393720c2f47e0cc26ef320fb9674d:refs/remotes/origin/ci/array-removals-d54c387-20261030
+2026-10-30T03:09:04.8039828Z From https://github.com/jipeng6036-del/immer
+2026-10-30T03:09:04.8042537Z  * [new ref]         d54c38736b4393720c2f47e0cc26ef320fb9674d -> origin/ci/array-removals-d54c387-20261030
+2026-10-30T03:09:04.8047516Z ##[endgroup]
+2026-10-30T03:09:04.8048354Z ##[group]Determining the checkout info
+2026-10-30T03:09:04.8049856Z ##[endgroup]
+2026-10-30T03:09:04.8056235Z [command]/usr/bin/git sparse-checkout disable
+2026-10-30T03:09:04.8121564Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-30T03:09:04.8161697Z ##[group]Checking out the ref
+2026-10-30T03:09:04.8174210Z [command]/usr/bin/git checkout --progress --force -B ci/array-removals-d54c387-20261030 refs/remotes/origin/ci/array-removals-d54c387-20261030
+2026-10-30T03:09:04.8416875Z Switched to a new branch 'ci/array-removals-d54c387-20261030'
+2026-10-30T03:09:04.8422892Z branch 'ci/array-removals-d54c387-20261030' set up to track 'origin/ci/array-removals-d54c387-20261030'.
+2026-10-30T03:09:04.8429847Z ##[endgroup]
+2026-10-30T03:09:04.8486035Z [command]/usr/bin/git log -1 --format=%H
+2026-10-30T03:09:04.8521275Z d54c38736b4393720c2f47e0cc26ef320fb9674d
+2026-10-30T03:09:04.8530946Z ##[group]Removing auth
+2026-10-30T03:09:04.8534961Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-30T03:09:04.8575749Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-30T03:09:04.8817189Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-30T03:09:04.8853801Z http.https://github.com/.extraheader
+2026-10-30T03:09:04.8862217Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-30T03:09:04.8904721Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-30T03:09:04.9153129Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-30T03:09:04.9194752Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-30T03:09:04.9433704Z ##[endgroup]
+2026-10-30T03:09:04.9713505Z ##[group]Run actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
+2026-10-30T03:09:04.9714006Z with:
+2026-10-30T03:09:04.9714253Z   node-version: 24
+2026-10-30T03:09:04.9714512Z   check-latest: false
+2026-10-30T03:09:04.9716764Z   token: ***
+2026-10-30T03:09:04.9717036Z   package-manager-cache: true
+2026-10-30T03:09:04.9717337Z ##[endgroup]
+2026-10-30T03:09:05.1426534Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-10-30T03:09:05.1431844Z ##[group]Environment details
+2026-10-30T03:09:09.9202808Z node: v24.22.1
+2026-10-30T03:09:09.9203326Z npm: 11.19.1
+2026-10-30T03:09:09.9203560Z yarn: 1.22.22
+2026-10-30T03:09:09.9204141Z ##[endgroup]
+2026-10-30T03:09:09.9371700Z ##[group]Run yarn --frozen-lockfile
+2026-10-30T03:09:09.9372106Z [36;1myarn --frozen-lockfile[0m
+2026-10-30T03:09:09.9446318Z shell: /usr/bin/bash -e {0}
+2026-10-30T03:09:09.9446620Z ##[endgroup]
+2026-10-30T03:09:10.1213149Z yarn install v1.22.22
+2026-10-30T03:09:10.1965951Z [1/4] Resolving packages...
+2026-10-30T03:09:10.5306451Z [2/4] Fetching packages...
+2026-10-30T03:09:28.0111236Z [3/4] Linking dependencies...
+2026-10-30T03:09:28.0131546Z warning " > @vitest/coverage-v8@2.1.9" has incorrect peer dependency "vitest@2.1.9".
+2026-10-30T03:09:28.0377442Z warning Workspaces can only be enabled in private projects.
+2026-10-30T03:09:33.4245120Z [4/4] Building fresh packages...
+2026-10-30T03:09:33.8794799Z Done in 23.80s.
+2026-10-30T03:09:33.9297828Z ##[group]Run yarn test
+2026-10-30T03:09:33.9298129Z [36;1myarn test[0m
+2026-10-30T03:09:33.9318397Z shell: /usr/bin/bash -e {0}
+2026-10-30T03:09:33.9318676Z ##[endgroup]
+2026-10-30T03:09:34.0759400Z yarn run v1.22.22
+2026-10-30T03:09:34.1122748Z $ vitest run && yarn test:build && yarn test:flow
+2026-10-30T03:09:34.5310371Z 
+2026-10-30T03:09:34.5316879Z [1m[46m RUN [49m[22m [36mv3.2.6 [39m[90m/home/runner/work/immer/immer[39m
+2026-10-30T03:09:34.5318125Z 
+2026-10-30T03:09:35.2176998Z  [32m✓[39m __tests__/produce.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+2026-10-30T03:09:35.3344225Z  [32m✓[39m __tests__/patch.js [2m([22m[2m228 tests[22m[2m)[22m[32m 98[2mms[22m[39m
+2026-10-30T03:09:35.6863832Z  [32m✓[39m __tests__/updateScenarios.js [2m([22m[2m17 tests[22m[2m)[22m[32m 112[2mms[22m[39m
+2026-10-30T03:09:35.7205319Z  [32m✓[39m __tests__/map-set.js [2m([22m[2m52 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+2026-10-30T03:09:36.0260311Z  [32m✓[39m __tests__/current.js [2m([22m[2m25 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+2026-10-30T03:09:36.0950042Z  [32m✓[39m __tests__/regressions.js [2m([22m[2m65 tests[22m[2m | [22m[33m8 skipped[39m[2m)[22m[32m 30[2mms[22m[39m
+2026-10-30T03:09:36.3581196Z  [32m✓[39m __tests__/draft.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:36.4549330Z  [32m✓[39m __tests__/frozen.js [2m([22m[2m20 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+2026-10-30T03:09:36.6925899Z  [32m✓[39m __tests__/readme.js [2m([22m[2m8 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+2026-10-30T03:09:36.7857253Z  [32m✓[39m __tests__/redux.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+2026-10-30T03:09:37.0751663Z  [32m✓[39m __tests__/base.js [2m([22m[2m3683 tests[22m[2m)[22m[33m 1413[2mms[22m[39m
+2026-10-30T03:09:37.1248969Z  [32m✓[39m __tests__/empty.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-30T03:09:37.1893999Z  [32m✓[39m __tests__/array-methods-removed.js [2m([22m[2m32 tests[22m[2m)[22m[32m 58[2mms[22m[39m
+2026-10-30T03:09:37.4283346Z  [32m✓[39m __tests__/manual.js [2m([22m[2m10 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+2026-10-30T03:09:37.4457086Z  [32m✓[39m __tests__/isModified.js [2m([22m[2m10 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-30T03:09:37.5068831Z  [32m✓[39m __tests__/prototype-inspection.js [2m([22m[2m9 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+2026-10-30T03:09:37.7488235Z  [32m✓[39m __tests__/immutable.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-30T03:09:37.7779492Z  [32m✓[39m __tests__/curry.js [2m([22m[2m6 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-30T03:09:37.8603962Z  [32m✓[39m __tests__/type-external.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:38.0673811Z  [32m✓[39m __tests__/not-strict-copy.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+2026-10-30T03:09:38.1065961Z  [32m✓[39m __tests__/original.js [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:38.1079867Z  [32m✓[39m __tests__/spec_ts.ts [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+2026-10-30T03:09:38.3775521Z  [32m✓[39m __tests__/array-methods-filter-length.js [2m([22m[2m4 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+2026-10-30T03:09:38.4132824Z  [32m✓[39m __tests__/plugins.js [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-30T03:09:38.4159420Z  [32m✓[39m __tests__/null.js [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+2026-10-30T03:09:38.6525825Z  [32m✓[39m __tests__/isDraftable.js [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
+2026-10-30T03:09:38.6697111Z 
+2026-10-30T03:09:38.6709666Z [2m Test Files [22m [1m[32m26 passed[39m[22m[90m (26)[39m
+2026-10-30T03:09:38.6723306Z [2m      Tests [22m [1m[32m4244 passed[39m[22m[2m | [22m[33m8 skipped[39m[90m (4252)[39m
+2026-10-30T03:09:38.6724567Z [2m   Start at [22m 03:09:34
+2026-10-30T03:09:38.6725987Z [2m   Duration [22m 4.13s[2m (transform 751ms, setup 0ms, collect 2.63s, tests 1.96s, environment 7ms, prepare 2.38s)[22m
+2026-10-30T03:09:38.6727232Z 
+2026-10-30T03:09:38.9754075Z $ yarn build && vitest run --config vitest.config.build.ts
+2026-10-30T03:09:39.1605501Z $ tsup
+2026-10-30T03:09:39.3187269Z [34mCLI[39m Building entry: {"immer":"src/immer.ts"}
+2026-10-30T03:09:39.3190045Z [34mCLI[39m Using tsconfig: tsconfig.json
+2026-10-30T03:09:39.3191463Z [34mCLI[39m Building entry: {"immer.legacy-esm":"src/immer.ts"}
+2026-10-30T03:09:39.3201545Z [34mCLI[39m Using tsconfig: tsconfig.json
+2026-10-30T03:09:39.3202705Z [34mCLI[39m Building entry: {"immer.production":"src/immer.ts"}
+2026-10-30T03:09:39.3203669Z [34mCLI[39m Using tsconfig: tsconfig.json
+2026-10-30T03:09:39.3204683Z [34mCLI[39m Building entry: {"immer.cjs.development":"src/immer.ts"}
+2026-10-30T03:09:39.3205622Z [34mCLI[39m Using tsconfig: tsconfig.json
+2026-10-30T03:09:39.3206602Z [34mCLI[39m Building entry: {"immer.cjs.production":"src/immer.ts"}
+2026-10-30T03:09:39.3207467Z [34mCLI[39m Using tsconfig: tsconfig.json
+2026-10-30T03:09:39.3208091Z [34mCLI[39m tsup v6.7.0
+2026-10-30T03:09:39.3209011Z [34mCLI[39m Using tsup config: /home/runner/work/immer/immer/tsup.config.ts
+2026-10-30T03:09:39.3230148Z [34mCLI[39m tsup v6.7.0
+2026-10-30T03:09:39.3231797Z [34mCLI[39m Using tsup config: /home/runner/work/immer/immer/tsup.config.ts
+2026-10-30T03:09:39.3233615Z [34mCLI[39m tsup v6.7.0
+2026-10-30T03:09:39.3235167Z [34mCLI[39m Using tsup config: /home/runner/work/immer/immer/tsup.config.ts
+2026-10-30T03:09:39.3236354Z [34mCLI[39m tsup v6.7.0
+2026-10-30T03:09:39.3237631Z [34mCLI[39m Using tsup config: /home/runner/work/immer/immer/tsup.config.ts
+2026-10-30T03:09:39.3238764Z [34mCLI[39m tsup v6.7.0
+2026-10-30T03:09:39.3239867Z [34mCLI[39m Using tsup config: /home/runner/work/immer/immer/tsup.config.ts
+2026-10-30T03:09:39.3262834Z [34mCLI[39m Target: es2020
+2026-10-30T03:09:39.3279173Z [34mCLI[39m Target: es2017
+2026-10-30T03:09:39.3301579Z [34mESM[39m Build start
+2026-10-30T03:09:39.3311601Z [34mCLI[39m Target: es2020
+2026-10-30T03:09:39.3312587Z [34mESM[39m Build start
+2026-10-30T03:09:39.3331638Z [34mCLI[39m Target: es2020
+2026-10-30T03:09:39.3332412Z [34mCJS[39m Build start
+2026-10-30T03:09:39.3374246Z [34mCLI[39m Target: es2020
+2026-10-30T03:09:39.3379017Z [34mCJS[39m Build start
+2026-10-30T03:09:39.3478739Z [34mCLI[39m Cleaning output folder
+2026-10-30T03:09:39.3501767Z [34mESM[39m Build start
+2026-10-30T03:09:39.4137871Z [32mCJS[39m [1mdist/cjs/immer.cjs.development.js     [22m[32m52.93 KB[39m
+2026-10-30T03:09:39.4172564Z [32mCJS[39m [1mdist/cjs/immer.cjs.development.js.map [22m[32m125.08 KB[39m
+2026-10-30T03:09:39.4173617Z [32mCJS[39m ⚡️ Build success in 81ms
+2026-10-30T03:09:39.4174243Z [32mESM[39m [1mdist/immer.mjs     [22m[32m51.23 KB[39m
+2026-10-30T03:09:39.4174949Z [32mESM[39m [1mdist/immer.mjs.map [22m[32m124.88 KB[39m
+2026-10-30T03:09:39.4175528Z [32mESM[39m ⚡️ Build success in 72ms
+2026-10-30T03:09:39.4292274Z [32mCJS[39m [1mdist/cjs/immer.cjs.production.js     [22m[32m16.68 KB[39m
+2026-10-30T03:09:39.4293576Z [32mCJS[39m [1mdist/cjs/immer.cjs.production.js.map [22m[32m129.07 KB[39m
+2026-10-30T03:09:39.4294528Z [32mCJS[39m ⚡️ Build success in 92ms
+2026-10-30T03:09:39.4308821Z [32mESM[39m [1mdist/immer.legacy-esm.js     [22m[32m52.89 KB[39m
+2026-10-30T03:09:39.4310071Z [32mESM[39m [1mdist/immer.legacy-esm.js.map [22m[32m125.04 KB[39m
+2026-10-30T03:09:39.4311357Z [32mESM[39m ⚡️ Build success in 102ms
+2026-10-30T03:09:39.4315651Z [32mESM[39m [1mdist/immer.production.mjs     [22m[32m15.90 KB[39m
+2026-10-30T03:09:39.4317139Z [32mESM[39m [1mdist/immer.production.mjs.map [22m[32m128.38 KB[39m
+2026-10-30T03:09:39.4318256Z [32mESM[39m ⚡️ Build success in 101ms
+2026-10-30T03:09:39.6414725Z [34mDTS[39m Build start
+2026-10-30T03:09:41.0898723Z [32mDTS[39m ⚡️ Build success in 1449ms
+2026-10-30T03:09:41.0899700Z [32mDTS[39m [1mdist/immer.d.ts [22m[32m16.70 KB[39m
+2026-10-30T03:09:41.5488518Z 
+2026-10-30T03:09:41.5490318Z [1m[46m RUN [49m[22m [36mv3.2.6 [39m[90m/home/runner/work/immer/immer[39m
+2026-10-30T03:09:41.5491113Z 
+2026-10-30T03:09:42.1537240Z  [32m✓[39m __tests__/updateScenarios.js [2m([22m[2m17 tests[22m[2m)[22m[32m 69[2mms[22m[39m
+2026-10-30T03:09:42.2184659Z  [32m✓[39m __tests__/patch.js [2m([22m[2m228 tests[22m[2m)[22m[32m 95[2mms[22m[39m
+2026-10-30T03:09:42.5399398Z  [32m✓[39m __tests__/array-methods-removed.js [2m([22m[2m32 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+2026-10-30T03:09:42.6123168Z  [32m✓[39m __tests__/map-set.js [2m([22m[2m52 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+2026-10-30T03:09:42.9100180Z  [32m✓[39m __tests__/regressions.js [2m([22m[2m65 tests[22m[2m | [22m[33m8 skipped[39m[2m)[22m[32m 36[2mms[22m[39m
+2026-10-30T03:09:42.9622627Z  [32m✓[39m __tests__/current.js [2m([22m[2m25 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+2026-10-30T03:09:43.2447268Z  [32m✓[39m __tests__/readme.js [2m([22m[2m8 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+2026-10-30T03:09:43.3007646Z  [32m✓[39m __tests__/frozen.js [2m([22m[2m20 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+2026-10-30T03:09:43.5532058Z  [32m✓[39m __tests__/manual.js [2m([22m[2m8 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+2026-10-30T03:09:43.7239985Z  [32m✓[39m __tests__/produce.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+2026-10-30T03:09:43.7532783Z  [32m✓[39m __tests__/base.js [2m([22m[2m3134 tests[22m[2m)[22m[33m 1121[2mms[22m[39m
+2026-10-30T03:09:43.8338080Z  [32m✓[39m __tests__/prototype-inspection.js [2m([22m[2m9 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+2026-10-30T03:09:44.0553304Z  [32m✓[39m __tests__/array-methods-filter-length.js [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:44.0842531Z  [32m✓[39m __tests__/curry.js [2m([22m[2m6 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+2026-10-30T03:09:44.1615699Z  [32m✓[39m __tests__/empty.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+2026-10-30T03:09:44.3538785Z  [32m✓[39m __tests__/not-strict-copy.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+2026-10-30T03:09:44.3572082Z  [32m✓[39m __tests__/isModified.js [2m([22m[2m10 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+2026-10-30T03:09:44.4562235Z  [32m✓[39m __tests__/draft.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:44.6546478Z  [32m✓[39m __tests__/original.js [2m([22m[2m4 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+2026-10-30T03:09:44.7016161Z  [32m✓[39m __tests__/type-external.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+2026-10-30T03:09:44.7475968Z  [32m✓[39m __tests__/redux.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-30T03:09:44.9317926Z  [32m✓[39m __tests__/plugins.js [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+2026-10-30T03:09:44.9750816Z  [32m✓[39m __tests__/immutable.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-30T03:09:45.0259864Z  [32m✓[39m __tests__/null.js [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
+2026-10-30T03:09:45.2042565Z  [32m✓[39m __tests__/spec_ts.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
+2026-10-30T03:09:45.2207955Z  [32m✓[39m __tests__/isDraftable.js [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
+2026-10-30T03:09:45.2393285Z 
+2026-10-30T03:09:45.2406031Z [2m Test Files [22m [1m[32m26 passed[39m[22m[90m (26)[39m
+2026-10-30T03:09:45.2416443Z [2m      Tests [22m [1m[32m3693 passed[39m[22m[2m | [22m[33m8 skipped[39m[90m (3701)[39m
+2026-10-30T03:09:45.2417719Z [2m   Start at [22m 03:09:41
+2026-10-30T03:09:45.2420030Z [2m   Duration [22m 3.69s[2m (transform 743ms, setup 0ms, collect 1.80s, tests 1.62s, environment 6ms, prepare 2.36s)[22m
+2026-10-30T03:09:45.2421773Z 
+2026-10-30T03:09:45.5707015Z $ yarn flow check __tests__/flow
+2026-10-30T03:09:45.7583778Z $ /home/runner/work/immer/immer/node_modules/.bin/flow check __tests__/flow
+2026-10-30T03:09:46.9697101Z Found 0 errors
+2026-10-30T03:09:47.0127120Z Done in 12.94s.
+2026-10-30T03:09:47.0275542Z ##[group]Run yarn coverage
+2026-10-30T03:09:47.0275849Z [36;1myarn coverage[0m
+2026-10-30T03:09:47.0296190Z shell: /usr/bin/bash -e {0}
+2026-10-30T03:09:47.0296478Z ##[endgroup]
+2026-10-30T03:09:47.1715800Z yarn run v1.22.22
+2026-10-30T03:09:47.2093412Z $ vitest run --coverage
+2026-10-30T03:09:47.7267292Z [33mLoaded [7m[33m vitest@3.2.6 [33m[27m and [7m[33m @vitest/coverage-v8@2.1.9 [33m[27m.
+2026-10-30T03:09:47.7268469Z Running mixed versions is not supported and may lead into bugs
+2026-10-30T03:09:47.7269592Z Update your dependencies and make sure the versions match.[39m
+2026-10-30T03:09:47.7361255Z 
+2026-10-30T03:09:47.7383954Z [1m[46m RUN [49m[22m [36mv3.2.6 [39m[90m/home/runner/work/immer/immer[39m
+2026-10-30T03:09:47.7385085Z       [2mCoverage enabled with [22m[33mv8[39m
+2026-10-30T03:09:47.7385901Z 
+2026-10-30T03:09:48.5300808Z  [32m✓[39m __tests__/updateScenarios.js [2m([22m[2m17 tests[22m[2m)[22m[32m 139[2mms[22m[39m
+2026-10-30T03:09:48.5446460Z  [32m✓[39m __tests__/patch.js [2m([22m[2m228 tests[22m[2m)[22m[32m 106[2mms[22m[39m
+2026-10-30T03:09:48.9441602Z  [32m✓[39m __tests__/array-methods-removed.js [2m([22m[2m32 tests[22m[2m)[22m[32m 65[2mms[22m[39m
+2026-10-30T03:09:48.9617540Z  [32m✓[39m __tests__/readme.js [2m([22m[2m8 tests[22m[2m)[22m[32m 37[2mms[22m[39m
+2026-10-30T03:09:49.3503265Z  [32m✓[39m __tests__/regressions.js [2m([22m[2m65 tests[22m[2m | [22m[33m8 skipped[39m[2m)[22m[32m 23[2mms[22m[39m
+2026-10-30T03:09:49.3926856Z  [32m✓[39m __tests__/map-set.js [2m([22m[2m52 tests[22m[2m)[22m[32m 41[2mms[22m[39m
+2026-10-30T03:09:49.7469613Z  [32m✓[39m __tests__/current.js [2m([22m[2m25 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+2026-10-30T03:09:49.8025440Z  [32m✓[39m __tests__/produce.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+2026-10-30T03:09:50.1238440Z  [32m✓[39m __tests__/frozen.js [2m([22m[2m20 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+2026-10-30T03:09:50.1875311Z  [32m✓[39m __tests__/manual.js [2m([22m[2m10 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+2026-10-30T03:09:50.5176295Z  [32m✓[39m __tests__/curry.js [2m([22m[2m6 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+2026-10-30T03:09:50.5796982Z  [32m✓[39m __tests__/isModified.js [2m([22m[2m10 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+2026-10-30T03:09:50.6591029Z  [32m✓[39m __tests__/base.js [2m([22m[2m3683 tests[22m[2m)[22m[33m 1777[2mms[22m[39m
+2026-10-30T03:09:50.8830261Z  [32m✓[39m __tests__/empty.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+2026-10-30T03:09:51.0093234Z  [32m✓[39m __tests__/type-external.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-30T03:09:51.0617516Z  [32m✓[39m __tests__/prototype-inspection.js [2m([22m[2m9 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+2026-10-30T03:09:51.2288301Z  [32m✓[39m __tests__/original.js [2m([22m[2m4 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-30T03:09:51.3526912Z  [32m✓[39m __tests__/not-strict-copy.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+2026-10-30T03:09:51.4189903Z  [32m✓[39m __tests__/array-methods-filter-length.js [2m([22m[2m4 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+2026-10-30T03:09:51.5660107Z  [32m✓[39m __tests__/draft.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+2026-10-30T03:09:51.7216124Z  [32m✓[39m __tests__/plugins.js [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+2026-10-30T03:09:51.8138669Z  [32m✓[39m __tests__/immutable.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:51.9453830Z  [32m✓[39m __tests__/redux.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-30T03:09:52.0540128Z  [32m✓[39m __tests__/null.js [2m([22m[2m1 test[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-30T03:09:52.1050058Z  [32m✓[39m __tests__/spec_ts.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
+2026-10-30T03:09:52.2662070Z  [32m✓[39m __tests__/isDraftable.js [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+2026-10-30T03:09:52.6049104Z 
+2026-10-30T03:09:52.6061285Z [2m Test Files [22m [1m[32m26 passed[39m[22m[90m (26)[39m
+2026-10-30T03:09:52.6071594Z [2m      Tests [22m [1m[32m4244 passed[39m[22m[2m | [22m[33m8 skipped[39m[90m (4252)[39m
+2026-10-30T03:09:52.6072474Z [2m   Start at [22m 03:09:47
+2026-10-30T03:09:52.6075338Z [2m   Duration [22m 4.87s[2m (transform 601ms, setup 0ms, collect 2.50s, tests 2.42s, environment 8ms, prepare 2.76s)[22m
+2026-10-30T03:09:52.6076112Z 
+2026-10-30T03:09:52.6109075Z [34m % [39m[2mCoverage report from [22m[33mv8[39m
+2026-10-30T03:09:52.6174817Z -------------------|---------|----------|---------|---------|-------------------
+2026-10-30T03:09:52.6175963Z File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+2026-10-30T03:09:52.6176964Z -------------------|---------|----------|---------|---------|-------------------
+2026-10-30T03:09:52.6184778Z All files          |   38.82 |    93.73 |   90.72 |   38.82 |                   
+2026-10-30T03:09:52.6185698Z  immer             |       0 |      100 |     100 |       0 |                   
+2026-10-30T03:09:52.6187091Z   ...m-reporter.ts |       0 |      100 |     100 |       0 | 3-18              
+2026-10-30T03:09:52.6187974Z  ...rmance_tests__ |       0 |        0 |       0 |       0 |                   
+2026-10-30T03:09:52.6188866Z   add-data.mjs     |       0 |        0 |       0 |       0 | 1-91              
+2026-10-30T03:09:52.6189707Z   incremental.mjs  |       0 |        0 |       0 |       0 | 1-99              
+2026-10-30T03:09:52.6190806Z   large-obj.mjs    |       0 |        0 |       0 |       0 | 1-32              
+2026-10-30T03:09:52.6191705Z   measure.mjs      |       0 |        0 |       0 |       0 | 1-20              
+2026-10-30T03:09:52.6192486Z   todo.mjs         |       0 |        0 |       0 |       0 | 1-232             
+2026-10-30T03:09:52.6193299Z  ...r/perf-testing |       0 |        0 |       0 |       0 |                   
+2026-10-30T03:09:52.6197326Z   ...enchmarks.mjs |       0 |        0 |       0 |       0 | 1-1301            
+2026-10-30T03:09:52.6199872Z   ...profiling.mjs |       0 |        0 |       0 |       0 | 1-562             
+2026-10-30T03:09:52.6203231Z   ...cpuprofile.js |       0 |        0 |       0 |       0 | 1-570             
+2026-10-30T03:09:52.6204701Z   ...own.config.js |       0 |        0 |       0 |       0 | 1-18              
+2026-10-30T03:09:52.6206825Z  immer/src         |   96.66 |       50 |     100 |   96.66 |                   
+2026-10-30T03:09:52.6207934Z   immer.ts         |   94.73 |       50 |     100 |   94.73 | 1                 
+2026-10-30T03:09:52.6209016Z   internal.ts      |     100 |      100 |     100 |     100 |                   
+2026-10-30T03:09:52.6210136Z  immer/src/core    |   96.96 |    95.91 |   97.95 |   96.96 |                   
+2026-10-30T03:09:52.6211339Z   current.ts       |   96.87 |    93.75 |     100 |   96.87 | 1                 
+2026-10-30T03:09:52.6212177Z   finalize.ts      |   99.51 |     93.9 |     100 |   99.51 | 287               
+2026-10-30T03:09:52.6213064Z   immerClass.ts    |      92 |    97.29 |   91.66 |      92 | ...49-150,198-199 
+2026-10-30T03:09:52.6213929Z   proxy.ts         |   97.74 |    97.19 |     100 |   97.74 | 1,144-150         
+2026-10-30T03:09:52.6214722Z   scope.ts         |      98 |    93.33 |     100 |      98 | 1                 
+2026-10-30T03:09:52.6215586Z  immer/src/plugins |   97.07 |    94.79 |   98.24 |   97.07 |                   
+2026-10-30T03:09:52.6216477Z   arrayMethods.ts  |   99.55 |    97.22 |     100 |   99.55 | 1                 
+2026-10-30T03:09:52.6217325Z   mapset.ts        |   97.27 |    97.72 |   96.77 |   97.27 | 2,192-200         
+2026-10-30T03:09:52.6218167Z   patches.ts       |   95.19 |     91.4 |     100 |   95.19 | ...08-209,371-372 
+2026-10-30T03:09:52.6223178Z  immer/src/types   |     100 |        0 |     100 |     100 |                   
+2026-10-30T03:09:52.6224190Z   ...s-external.ts |     100 |      100 |     100 |     100 |                   
+2026-10-30T03:09:52.6225077Z   ...s-internal.ts |     100 |        0 |     100 |     100 | 20                
+2026-10-30T03:09:52.6225979Z  immer/src/utils   |    97.7 |    95.62 |   96.87 |    97.7 |                   
+2026-10-30T03:09:52.6226870Z   common.ts        |   97.87 |    98.34 |   95.83 |   97.87 | 1,188-190         
+2026-10-30T03:09:52.6227685Z   env.ts           |     100 |        0 |     100 |     100 | 6                 
+2026-10-30T03:09:52.6228527Z   errors.ts        |   97.72 |    77.77 |     100 |   97.72 | 1                 
+2026-10-30T03:09:52.6229391Z   plugins.ts       |   96.15 |    83.33 |     100 |   96.15 | 1                 
+2026-10-30T03:09:52.6230249Z  immer/website     |       0 |        0 |       0 |       0 |                   
+2026-10-30T03:09:52.6231408Z   ...rus.config.js |       0 |        0 |       0 |       0 | 1-105             
+2026-10-30T03:09:52.6232254Z   sidebars.js      |       0 |        0 |       0 |       0 | 1-34              
+2026-10-30T03:09:52.6233206Z -------------------|---------|----------|---------|---------|-------------------
+2026-10-30T03:09:52.7142207Z Done in 5.54s.
+2026-10-30T03:09:52.7326297Z ##[group]Run yarn test:perf
+2026-10-30T03:09:52.7326640Z [36;1myarn test:perf[0m
+2026-10-30T03:09:52.7346829Z shell: /usr/bin/bash -e {0}
+2026-10-30T03:09:52.7347127Z ##[endgroup]
+2026-10-30T03:09:52.8824523Z yarn run v1.22.22
+2026-10-30T03:09:52.9201652Z $ cd __performance_tests__ && node add-data.mjs && node todo.mjs && node incremental.mjs && node large-obj.mjs
+2026-10-30T03:09:52.9779166Z 
+2026-10-30T03:09:52.9779938Z # add-data - loading large set of data
+2026-10-30T03:09:52.9780364Z 
+2026-10-30T03:09:52.9795072Z just mutate: 0ms
+2026-10-30T03:09:52.9839931Z just mutate, freeze: 0ms
+2026-10-30T03:09:52.9840806Z handcrafted reducer (no freeze): 0ms
+2026-10-30T03:09:52.9841765Z handcrafted reducer (with freeze): 0ms
+2026-10-30T03:09:53.0955169Z immutableJS: 23ms
+2026-10-30T03:09:53.1995208Z immutableJS + toJS: 23ms
+2026-10-30T03:09:53.3424006Z seamless-immutable: 30ms
+2026-10-30T03:09:53.5176238Z seamless-immutable + asMutable: 37ms
+2026-10-30T03:09:53.5978866Z immer - without autofreeze * 10000: 27ms
+2026-10-30T03:09:53.6680136Z immer - with autofreeze * 10000: 19ms
+2026-10-30T03:09:54.7614937Z 
+2026-10-30T03:09:54.7615564Z # todo - performance
+2026-10-30T03:09:54.7615922Z 
+2026-10-30T03:09:55.1234916Z just mutate: 0ms
+2026-10-30T03:09:55.7806805Z just mutate, freeze: 67ms
+2026-10-30T03:09:56.1211713Z deepclone, then mutate: 71ms
+2026-10-30T03:09:56.7766618Z deepclone, then mutate, then freeze: 131ms
+2026-10-30T03:09:56.7852732Z handcrafted reducer (no freeze): 2ms
+2026-10-30T03:09:56.7943072Z handcrafted reducer (with freeze): 2ms
+2026-10-30T03:09:56.7992669Z naive handcrafted reducer (without freeze): 1ms
+2026-10-30T03:09:56.9095162Z naive handcrafted reducer (with freeze): 9ms
+2026-10-30T03:09:56.9371857Z immutableJS: 4ms
+2026-10-30T03:09:57.2658002Z immutableJS + toJS: 66ms
+2026-10-30T03:09:57.3844268Z seamless-immutable: 25ms
+2026-10-30T03:09:57.7666146Z seamless-immutable + asMutable: 68ms
+2026-10-30T03:09:57.8073551Z immer - without autofreeze: 6ms
+2026-10-30T03:09:57.8840185Z immer - with autofreeze: 16ms
+2026-10-30T03:09:57.9538640Z immer - without autofreeze - with patch listener: 14ms
+2026-10-30T03:09:58.0325145Z immer - with autofreeze - with patch listener: 16ms
+2026-10-30T03:09:58.1526659Z 
+2026-10-30T03:09:58.1527634Z # incremental - lot of small incremental changes
+2026-10-30T03:09:58.1528086Z 
+2026-10-30T03:09:58.1546627Z just mutate: 0ms
+2026-10-30T03:09:58.1664146Z handcrafted reducer: 2ms
+2026-10-30T03:09:58.1856846Z immutableJS: 6ms
+2026-10-30T03:09:58.6368824Z immer: 92ms
+2026-10-30T03:09:58.6605400Z immer - single produce: 6ms
+2026-10-30T03:09:58.6946152Z 
+2026-10-30T03:09:58.6947104Z # large-obj - mutate large object
+2026-10-30T03:09:58.6947389Z 
+2026-10-30T03:10:00.2426680Z immer - with setUseStrictShallowCopy: 311ms
+2026-10-30T03:10:00.3219580Z immer - without setUseStrictShallowCopy: 16ms
+2026-10-30T03:10:00.3390358Z Done in 7.46s.
+2026-10-30T03:10:00.3621151Z ##[group]Run coverallsapp/github-action@8cbef1dea373ebce56de0a14c68d6267baa10b44
+2026-10-30T03:10:00.3621669Z with:
+2026-10-30T03:10:00.3636560Z   github-token: ***
+2026-10-30T03:10:00.3636874Z   path-to-lcov: ./coverage/lcov.info
+2026-10-30T03:10:00.3637206Z   coveralls-endpoint: https://coveralls.io
+2026-10-30T03:10:00.3637508Z ##[endgroup]
+2026-10-30T03:10:00.5048968Z Using lcov file: ./coverage/lcov.info
+2026-10-30T03:10:03.4493177Z ##[warning]The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+2026-10-30T03:10:03.4685223Z Post job cleanup.
+2026-10-30T03:10:03.6045308Z Post job cleanup.
+2026-10-30T03:10:03.7007079Z [command]/usr/bin/git version
+2026-10-30T03:10:03.7060384Z git version 2.56.0
+2026-10-30T03:10:03.7137016Z Temporarily overriding HOME='/home/runner/work/_temp/a56fbfea-1992-4771-b7cb-039ac42c2fc8' before making global git config changes
+2026-10-30T03:10:03.7138777Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-30T03:10:03.7143491Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/immer/immer
+2026-10-30T03:10:03.7195793Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-30T03:10:03.7238341Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-30T03:10:03.7520248Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-30T03:10:03.7573334Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-30T03:10:03.7852762Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-30T03:10:03.7901210Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-30T03:10:03.8303523Z Cleaning up orphan processes
+2026-10-30T03:10:03.8772345Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, coverallsapp/github-action@8cbef1dea373ebce56de0a14c68d6267baa10b44. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

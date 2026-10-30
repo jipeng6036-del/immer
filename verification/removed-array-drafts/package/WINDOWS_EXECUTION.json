@@ -1,0 +1,26 @@
+[
+  {
+    "name": "windows-baseline-cjs-development",
+    "exitCode": 1
+  },
+  {
+    "name": "windows-baseline-cjs-production",
+    "exitCode": 1
+  },
+  {
+    "name": "windows-baseline-esm-development",
+    "exitCode": 1
+  },
+  {
+    "name": "windows-candidate-cjs-development",
+    "exitCode": 0
+  },
+  {
+    "name": "windows-candidate-cjs-production",
+    "exitCode": 0
+  },
+  {
+    "name": "windows-candidate-esm-development",
+    "exitCode": 0
+  }
+]

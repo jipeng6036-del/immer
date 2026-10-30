@@ -1,0 +1,74 @@
+[
+  {
+    "file": "immer.ts",
+    "sha256": "52db12c489df714c8f511816553172d118acbef5b81db4817859589975948e2a"
+  },
+  {
+    "file": "internal.ts",
+    "sha256": "ccee131c664d5b28d8b623972b07e19788d3bfcbb8541173ca6ef837c8949adc"
+  },
+  {
+    "file": "core/current.ts",
+    "sha256": "a91762b7f3b356a81b867879acbb91481e062a9a6e2b6ca1391ab991d01cbc62"
+  },
+  {
+    "file": "core/finalize.ts",
+    "sha256": "db322a5a85d0ad6f78847c43b7a667d65aee5753a764e2d4c00f9e2549c61ac3"
+  },
+  {
+    "file": "core/immerClass.ts",
+    "sha256": "fdd09af523f84e38014abad92bb6aa7826e536d878e7050434d33c3c4847c730"
+  },
+  {
+    "file": "core/proxy.ts",
+    "sha256": "fac7fb2778b3c9a5add6178b889f03e198da58c5573a0cc5da61eeef4055a990"
+  },
+  {
+    "file": "core/scope.ts",
+    "sha256": "fd14def998186b10a9d9af21ae2090f6556daead6db65d71e4d8dfe36c54f07d"
+  },
+  {
+    "file": "plugins/arrayMethods.ts",
+    "sha256": "02c98ac1d36e445ce0d063893fc35a144932a4cf134f528f615b0ed28ecd2b77"
+  },
+  {
+    "file": "plugins/mapset.ts",
+    "sha256": "7caf0f7ba5e1f9183e16e26811db449b3474bb5ca9a8038f4721cb650e4b26fd"
+  },
+  {
+    "file": "plugins/patches.ts",
+    "sha256": "1834b38a77b2a20f612fb26ad10c4448de10c2bd42ba0fc648d364825155c231"
+  },
+  {
+    "file": "types/globals.d.ts",
+    "sha256": "15e7ec5c98207a15ee11d621301bb77fd930c067cd4d70cddeee308cafe066ce"
+  },
+  {
+    "file": "types/index.js.flow",
+    "sha256": "3ddc7242654fe8310e9a8fab19256755af5461769d6436d9680b54c33f50ea00"
+  },
+  {
+    "file": "types/types-external.ts",
+    "sha256": "b94fa44b5c4af84ac6b7f1b8015b9606a2ed203c3c09f5af68328cdebde7418c"
+  },
+  {
+    "file": "types/types-internal.ts",
+    "sha256": "102accdf56956e05ea954c6dd1b3eac89b638a828ccee0fb10e61887c51ed828"
+  },
+  {
+    "file": "utils/common.ts",
+    "sha256": "15f2b082417bc66c5a0c4a9e2f83d48a0ed5b530ccd1dc0bff04994fa7473bc0"
+  },
+  {
+    "file": "utils/env.ts",
+    "sha256": "2106bb87e8b0a42d95c82348d56cd266d8cbbcb745176367257178b896307092"
+  },
+  {
+    "file": "utils/errors.ts",
+    "sha256": "72b83542d0c701238b4d9f40418dcdaee85e9d8eaa20a959b52067b38192ac67"
+  },
+  {
+    "file": "utils/plugins.ts",
+    "sha256": "9c069f150cf8134ed5d5fa48bc8861ccff3bb179ad929e41fbb4023ed9f9bf32"
+  }
+]

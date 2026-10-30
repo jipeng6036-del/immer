@@ -1,0 +1,94 @@
+{
+  "node": "v24.14.0",
+  "platform": "win32",
+  "entry": {
+    "format": "import",
+    "resolved": "file:///<workspace>/ci-evidence/pr4-discovery-20261030-0205/lane-python/immer-package/consumers/windows-baseline/node_modules/immer/dist/immer.mjs",
+    "NODE_ENV": "development"
+  },
+  "passed": 4,
+  "failed": 13,
+  "rows": [
+    {
+      "name": "move-pop:autoFreeze=false:frozen=false",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-pop:autoFreeze=false:frozen=true",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-pop:autoFreeze=true:frozen=false",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-pop:autoFreeze=true:frozen=true",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-shift:autoFreeze=false:frozen=false",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-shift:autoFreeze=false:frozen=true",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-shift:autoFreeze=true:frozen=false",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-shift:autoFreeze=true:frozen=true",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-splice:autoFreeze=false:frozen=false",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-splice:autoFreeze=false:frozen=true",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-splice:autoFreeze=true:frozen=false",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "move-splice:autoFreeze=true:frozen=true",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "existing-draft-reinsert-remove",
+      "pass": true
+    },
+    {
+      "name": "external-control",
+      "pass": true
+    },
+    {
+      "name": "empty-noop-control",
+      "pass": true
+    },
+    {
+      "name": "getter-on-retained-element",
+      "pass": true
+    },
+    {
+      "name": "sparse-removal",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n\n1 !== 0\n"
+    }
+  ]
+}

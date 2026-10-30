@@ -1,0 +1,382 @@
+{
+  "baseline": {
+    "packageName": "immer",
+    "version": "10.0.3-beta",
+    "tarball": "<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-package\\artifacts\\baseline\\immer-10.0.3-beta.tgz",
+    "sha256": "162aad55307dc22c70db762851b71d67e38b1dddbefdf438377fe47a4ca031a7",
+    "npm": {
+      "id": "immer@10.0.3-beta",
+      "name": "immer",
+      "version": "10.0.3-beta",
+      "size": 262314,
+      "unpackedSize": 976903,
+      "shasum": "b1f3138d8f72d8efef7e643fcafb6cc91318ea75",
+      "integrity": "sha512-2QYc2alUjTNRaASPco3QOFJq5PUqJj7/98cDx8afKBlHhdK6TE+cx8upCI4KoLZt2AkzoLqi1r8jHe8gdLP3iw==",
+      "filename": "immer-10.0.3-beta.tgz",
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1074,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.development.js",
+          "size": 54445,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.development.js.map",
+          "size": 129462,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.production.js",
+          "size": 17052,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.production.js.map",
+          "size": 133515,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/index.js",
+          "size": 183,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/index.js.flow",
+          "size": 4464,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.d.ts",
+          "size": 17059,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.legacy-esm.js",
+          "size": 54459,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.legacy-esm.js.map",
+          "size": 129436,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.mjs",
+          "size": 52702,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.mjs.map",
+          "size": 129253,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.production.mjs",
+          "size": 16262,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.production.mjs.map",
+          "size": 132823,
+          "mode": 420
+        },
+        {
+          "path": "package.json",
+          "size": 2937,
+          "mode": 420
+        },
+        {
+          "path": "readme.md",
+          "size": 1880,
+          "mode": 420
+        },
+        {
+          "path": "src/core/current.ts",
+          "size": 1421,
+          "mode": 420
+        },
+        {
+          "path": "src/core/finalize.ts",
+          "size": 8486,
+          "mode": 420
+        },
+        {
+          "path": "src/core/immerClass.ts",
+          "size": 7772,
+          "mode": 420
+        },
+        {
+          "path": "src/core/proxy.ts",
+          "size": 10797,
+          "mode": 420
+        },
+        {
+          "path": "src/core/scope.ts",
+          "size": 2172,
+          "mode": 420
+        },
+        {
+          "path": "src/immer.ts",
+          "size": 3887,
+          "mode": 420
+        },
+        {
+          "path": "src/internal.ts",
+          "size": 355,
+          "mode": 420
+        },
+        {
+          "path": "src/plugins/arrayMethods.ts",
+          "size": 16685,
+          "mode": 420
+        },
+        {
+          "path": "src/plugins/mapset.ts",
+          "size": 8771,
+          "mode": 420
+        },
+        {
+          "path": "src/plugins/patches.ts",
+          "size": 11258,
+          "mode": 420
+        },
+        {
+          "path": "src/types/globals.d.ts",
+          "size": 31,
+          "mode": 420
+        },
+        {
+          "path": "src/types/index.js.flow",
+          "size": 4464,
+          "mode": 420
+        },
+        {
+          "path": "src/types/types-external.ts",
+          "size": 8767,
+          "mode": 420
+        },
+        {
+          "path": "src/types/types-internal.ts",
+          "size": 1193,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/common.ts",
+          "size": 8626,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/env.ts",
+          "size": 666,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/errors.ts",
+          "size": 2214,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/plugins.ts",
+          "size": 2332,
+          "mode": 420
+        }
+      ],
+      "entryCount": 34,
+      "bundled": []
+    }
+  },
+  "candidate": {
+    "packageName": "immer",
+    "version": "10.0.3-beta",
+    "tarball": "<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-package\\artifacts\\candidate\\immer-10.0.3-beta.tgz",
+    "sha256": "f52fc1ada2356097444d2ff08993d472b26d8b2be983b149e92ab21639ea84d3",
+    "npm": {
+      "id": "immer@10.0.3-beta",
+      "name": "immer",
+      "version": "10.0.3-beta",
+      "size": 262226,
+      "unpackedSize": 989864,
+      "shasum": "cb38adfb26b99c4a334c60e01a5ca174ef274509",
+      "integrity": "sha512-4zlwXFdTsQJJCTdxnTmGftF/HbMC/xoidIn+7RdqG+KYBHsFx0+Fm/OxXEX45xvxtFFKonM8bCLk4hRmPePXSQ==",
+      "filename": "immer-10.0.3-beta.tgz",
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1074,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.development.js",
+          "size": 54202,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.development.js.map",
+          "size": 132366,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.production.js",
+          "size": 17077,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/immer.cjs.production.js.map",
+          "size": 136444,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/index.js",
+          "size": 183,
+          "mode": 420
+        },
+        {
+          "path": "dist/cjs/index.js.flow",
+          "size": 4592,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.d.ts",
+          "size": 17100,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.legacy-esm.js",
+          "size": 54160,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.legacy-esm.js.map",
+          "size": 132323,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.mjs",
+          "size": 52459,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.mjs.map",
+          "size": 132157,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.production.mjs",
+          "size": 16285,
+          "mode": 420
+        },
+        {
+          "path": "dist/immer.production.mjs.map",
+          "size": 135744,
+          "mode": 420
+        },
+        {
+          "path": "package.json",
+          "size": 2937,
+          "mode": 420
+        },
+        {
+          "path": "readme.md",
+          "size": 1880,
+          "mode": 420
+        },
+        {
+          "path": "src/core/current.ts",
+          "size": 1421,
+          "mode": 420
+        },
+        {
+          "path": "src/core/finalize.ts",
+          "size": 8486,
+          "mode": 420
+        },
+        {
+          "path": "src/core/immerClass.ts",
+          "size": 7772,
+          "mode": 420
+        },
+        {
+          "path": "src/core/proxy.ts",
+          "size": 10797,
+          "mode": 420
+        },
+        {
+          "path": "src/core/scope.ts",
+          "size": 2172,
+          "mode": 420
+        },
+        {
+          "path": "src/immer.ts",
+          "size": 3887,
+          "mode": 420
+        },
+        {
+          "path": "src/internal.ts",
+          "size": 355,
+          "mode": 420
+        },
+        {
+          "path": "src/plugins/arrayMethods.ts",
+          "size": 15669,
+          "mode": 420
+        },
+        {
+          "path": "src/plugins/mapset.ts",
+          "size": 8771,
+          "mode": 420
+        },
+        {
+          "path": "src/plugins/patches.ts",
+          "size": 11258,
+          "mode": 420
+        },
+        {
+          "path": "src/types/globals.d.ts",
+          "size": 31,
+          "mode": 420
+        },
+        {
+          "path": "src/types/index.js.flow",
+          "size": 4464,
+          "mode": 420
+        },
+        {
+          "path": "src/types/types-external.ts",
+          "size": 8767,
+          "mode": 420
+        },
+        {
+          "path": "src/types/types-internal.ts",
+          "size": 1193,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/common.ts",
+          "size": 8626,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/env.ts",
+          "size": 666,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/errors.ts",
+          "size": 2214,
+          "mode": 420
+        },
+        {
+          "path": "src/utils/plugins.ts",
+          "size": 2332,
+          "mode": 420
+        }
+      ],
+      "entryCount": 34,
+      "bundled": []
+    }
+  }
+}

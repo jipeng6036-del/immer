@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "ref": "75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+    "archiveSha256": "048d36186e16f68c05de7d4a7997f7f8c441a9986850e7014dc5619c4ed5a84e",
+    "sourceFileHashes": {
+      "src/immer.ts": "4b6ac1c93d490ac54dc3634cf3f38064fd065dd0f8fc3bf1c5d2d6bab5b266a5",
+      "src/internal.ts": "3d8f2bd0bc4379a9f6709a907029d02029c93cad75fed586cfbab88060a35896",
+      "src/core/current.ts": "ad170b371269d0f90b9cff269084a44b70d79a32bbffbc69d7bec4885816fa9a",
+      "src/core/finalize.ts": "f5c76275dc374fb22367e21ab9348ca663dd681588b0becfb9564754d4fb913b",
+      "src/core/immerClass.ts": "8cf35b67c6f31fb1e1d861dde65c5db106a90178aaf2d6f1a18fc0683a45eb01",
+      "src/core/proxy.ts": "fac7fb2778b3c9a5add6178b889f03e198da58c5573a0cc5da61eeef4055a990",
+      "src/core/scope.ts": "ccfd3cabb86ea9568b5ea18d36aeaec7426f8cbc0bc4107624ad4348ea146056",
+      "src/plugins/arrayMethods.ts": "4d12e308ea3a0e670834cb5aa3874e47de925a51d8b12c3dc71d5e6c342d97c4",
+      "src/plugins/mapset.ts": "8cfdf4ac7925d4c8ca248df3b95bd5b626e0473338c21e56b9ca2990d16e0a41",
+      "src/plugins/patches.ts": "611a87c99ca766ccf33bf55507f989502cac0804d3fd9fd648984efefbbdae23",
+      "src/types/globals.d.ts": "7a3e25d022daacb54a8bfdaeabea263c6266cfc19c9d855d002b7014beb8dc8d",
+      "src/types/index.js.flow": "5c0ec7b6db6b3c90f69f3b46e68bc43691801f112b28efbbd4a49e67a7c33ef6",
+      "src/types/types-external.ts": "10f925fcf02b01220423072a07a59482ca2630d4a5cce1e8da2614307a2b6f53",
+      "src/types/types-internal.ts": "41d6f552263a3812607f9a47d12224f5d4ce6b8934664fff828d4967bf9ed659",
+      "src/utils/common.ts": "866d918f39f40b3566d1e6ca3316a2495cd036354a9419fab0c103dc0db332b5",
+      "src/utils/env.ts": "c8b9b7d096f5eb90aaadf4d0c1947217635381dd990ff317b83111d5424a624e",
+      "src/utils/errors.ts": "6041b13b5252df6908e9b693ab114eddc21c0967b6d9bf255f5120278bfd2cec",
+      "src/utils/plugins.ts": "a124c5fa095b7592d35bdc88ded44f5e2fa6ca7b90cee2cd36c034a4a8d15132"
+    }
+  },
+  "candidate": {
+    "ref": "d54c38736b4393720c2f47e0cc26ef320fb9674d",
+    "archiveSha256": "20917d66ce8cf8a6a6c47d839e151d38b6971351986c6d07d82f7c2d847a0904",
+    "sourceFileHashes": {
+      "src/immer.ts": "4b6ac1c93d490ac54dc3634cf3f38064fd065dd0f8fc3bf1c5d2d6bab5b266a5",
+      "src/internal.ts": "3d8f2bd0bc4379a9f6709a907029d02029c93cad75fed586cfbab88060a35896",
+      "src/core/current.ts": "ad170b371269d0f90b9cff269084a44b70d79a32bbffbc69d7bec4885816fa9a",
+      "src/core/finalize.ts": "f5c76275dc374fb22367e21ab9348ca663dd681588b0becfb9564754d4fb913b",
+      "src/core/immerClass.ts": "8cf35b67c6f31fb1e1d861dde65c5db106a90178aaf2d6f1a18fc0683a45eb01",
+      "src/core/proxy.ts": "fac7fb2778b3c9a5add6178b889f03e198da58c5573a0cc5da61eeef4055a990",
+      "src/core/scope.ts": "ccfd3cabb86ea9568b5ea18d36aeaec7426f8cbc0bc4107624ad4348ea146056",
+      "src/plugins/arrayMethods.ts": "c3ace1e0e0dd1d704d47f732fc13cee53c7035cc82d598b42b8f25e72cf54211",
+      "src/plugins/mapset.ts": "8cfdf4ac7925d4c8ca248df3b95bd5b626e0473338c21e56b9ca2990d16e0a41",
+      "src/plugins/patches.ts": "611a87c99ca766ccf33bf55507f989502cac0804d3fd9fd648984efefbbdae23",
+      "src/types/globals.d.ts": "7a3e25d022daacb54a8bfdaeabea263c6266cfc19c9d855d002b7014beb8dc8d",
+      "src/types/index.js.flow": "5c0ec7b6db6b3c90f69f3b46e68bc43691801f112b28efbbd4a49e67a7c33ef6",
+      "src/types/types-external.ts": "10f925fcf02b01220423072a07a59482ca2630d4a5cce1e8da2614307a2b6f53",
+      "src/types/types-internal.ts": "41d6f552263a3812607f9a47d12224f5d4ce6b8934664fff828d4967bf9ed659",
+      "src/utils/common.ts": "866d918f39f40b3566d1e6ca3316a2495cd036354a9419fab0c103dc0db332b5",
+      "src/utils/env.ts": "c8b9b7d096f5eb90aaadf4d0c1947217635381dd990ff317b83111d5424a624e",
+      "src/utils/errors.ts": "6041b13b5252df6908e9b693ab114eddc21c0967b6d9bf255f5120278bfd2cec",
+      "src/utils/plugins.ts": "a124c5fa095b7592d35bdc88ded44f5e2fa6ca7b90cee2cd36c034a4a8d15132"
+    }
+  }
+}

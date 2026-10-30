@@ -1,0 +1,6 @@
+{
+  "equal": true,
+  "method": "TypeScript AST printer removes comments; void expression statement normalized to equivalent expression statement because result is unused",
+  "typescript": "5.0.2",
+  "sha256": "2491380d57aa942ebfd0c5d4525e7d4dc781a4cae7f687f0886ef4b850f24d3a"
+}

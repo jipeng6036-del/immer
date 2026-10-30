@@ -1,0 +1,17 @@
+warning: in the working copy of '__tests__/__prod_snapshots__/base.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__prod_snapshots__/curry.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__prod_snapshots__/frozen.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__prod_snapshots__/manual.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__prod_snapshots__/patch.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__prod_snapshots__/plugins.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__prod_snapshots__/readme.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/base.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/curry.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/frozen.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/manual.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/patch.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/plugins.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '__tests__/__snapshots__/readme.js.snap', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/core/proxy.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/plugins/arrayMethods.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'website/docs/array-methods.md', LF will be replaced by CRLF the next time Git touches it

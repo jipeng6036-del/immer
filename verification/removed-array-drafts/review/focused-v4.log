@@ -1,0 +1,55 @@
+PASS plain drain-move-and-patches:pop:freeze=false
+FAIL baseline drain-move-and-patches:pop:freeze=false AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+PASS candidate drain-move-and-patches:pop:freeze=false
+PASS plain drain-move-and-patches:pop:freeze=true
+FAIL baseline drain-move-and-patches:pop:freeze=true TypeError: Cannot assign to read only property 'count' of object '#<Object>'
+PASS candidate drain-move-and-patches:pop:freeze=true
+PASS plain drain-move-and-patches:shift:freeze=false
+FAIL baseline drain-move-and-patches:shift:freeze=false AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+PASS candidate drain-move-and-patches:shift:freeze=false
+PASS plain drain-move-and-patches:shift:freeze=true
+FAIL baseline drain-move-and-patches:shift:freeze=true TypeError: Cannot assign to read only property 'count' of object '#<Object>'
+PASS candidate drain-move-and-patches:shift:freeze=true
+PASS plain drain-move-and-patches:splice:freeze=false
+FAIL baseline drain-move-and-patches:splice:freeze=false AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+PASS candidate drain-move-and-patches:splice:freeze=false
+PASS plain drain-move-and-patches:splice:freeze=true
+FAIL baseline drain-move-and-patches:splice:freeze=true TypeError: Cannot assign to read only property 'count' of object '#<Object>'
+PASS candidate drain-move-and-patches:splice:freeze=true
+PASS plain remove-mutate-reinsert-remove-again
+FAIL baseline remove-mutate-reinsert-remove-again AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+PASS candidate remove-mutate-reinsert-remove-again
+PASS plain previous-draft-identity:pop
+PASS baseline previous-draft-identity:pop
+PASS candidate previous-draft-identity:pop
+PASS plain previous-draft-identity:shift
+PASS baseline previous-draft-identity:shift
+PASS candidate previous-draft-identity:shift
+PASS plain previous-draft-identity:splice
+PASS baseline previous-draft-identity:splice
+PASS candidate previous-draft-identity:splice
+PASS plain reorder-before-removal
+FAIL baseline reorder-before-removal AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+PASS candidate reorder-before-removal
+PASS plain removed-map-set-array-immerable
+FAIL baseline removed-map-set-array-immerable AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+PASS candidate removed-map-set-array-immerable
+PASS plain external-remains-undrafted
+PASS baseline external-remains-undrafted
+PASS candidate external-remains-undrafted
+PASS plain sparse-pop
+FAIL baseline sparse-pop AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+PASS candidate sparse-pop
+PASS plain sparse-shift
+FAIL baseline sparse-shift AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+PASS candidate sparse-shift
+PASS plain sparse-splice
+FAIL baseline sparse-splice AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+PASS candidate sparse-splice
+PASS plain empty-noop-primitives
+PASS baseline empty-noop-primitives
+PASS candidate empty-noop-primitives
+PASS plain splice-coercion-side-effects-removal-only
+FAIL baseline splice-coercion-side-effects-removal-only AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+PASS candidate splice-coercion-side-effects-removal-only
+{"total":54,"candidateFailures":0,"plainFailures":[]}

@@ -1,0 +1,18 @@
+{
+  "name": "test.yml",
+  "path": ".github/workflows/test.yml",
+  "sha": "2aaea3b8ee61f6f073c0e03ee1e5bb68c564d88c",
+  "size": 1027,
+  "url": "https://api.github.com/repos/jipeng6036-del/immer/contents/.github/workflows/test.yml?ref=d54c38736b4393720c2f47e0cc26ef320fb9674d",
+  "html_url": "https://github.com/jipeng6036-del/immer/blob/d54c38736b4393720c2f47e0cc26ef320fb9674d/.github/workflows/test.yml",
+  "git_url": "https://api.github.com/repos/jipeng6036-del/immer/git/blobs/2aaea3b8ee61f6f073c0e03ee1e5bb68c564d88c",
+  "download_url": "https://raw.githubusercontent.com/jipeng6036-del/immer/d54c38736b4393720c2f47e0cc26ef320fb9674d/.github/workflows/test.yml",
+  "type": "file",
+  "content": "IyBUaGlzIHdvcmtmbG93IHdpbGwgZG8gYSBjbGVhbiBpbnN0YWxsIG9mIG5v\nZGUgZGVwZW5kZW5jaWVzLCBjYWNoZS9yZXN0b3JlIHRoZW0sIGJ1aWxkIHRo\nZSBzb3VyY2UgY29kZSBhbmQgcnVuIHRlc3RzIGFjcm9zcyBkaWZmZXJlbnQg\ndmVyc2lvbnMgb2Ygbm9kZQojIEZvciBtb3JlIGluZm9ybWF0aW9uIHNlZTog\naHR0cHM6Ly9oZWxwLmdpdGh1Yi5jb20vYWN0aW9ucy9sYW5ndWFnZS1hbmQt\nZnJhbWV3b3JrLWd1aWRlcy91c2luZy1ub2RlanMtd2l0aC1naXRodWItYWN0\naW9ucwoKbmFtZTogVGVzdAoKb246IFsicHVzaCIsICJwdWxsX3JlcXVlc3Qi\nXQoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKCmpvYnM6CiAgYnVp\nbGQ6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAg\nICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QDM0ZTExNDg3NmIwYjExYzM5\nMGE1NjM4MWFkMTZlYmQxMzkxNGY4ZDUgIyB2NC4zLjEKICAgICAgICB3aXRo\nOgogICAgICAgICAgcGVyc2lzdC1jcmVkZW50aWFsczogZmFsc2UKICAgICAg\nLSB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVANDhiNTVhMDExYmRhOWY1ZDZh\nZWI0YzJkOWM3MzYyZThkYWU0MDQxZSAjIHY2LjQuMAogICAgICAgIHdpdGg6\nCiAgICAgICAgICBub2RlLXZlcnNpb246IDI0CiAgICAgIC0gbmFtZTogeWFy\nbiBpbnN0YWxsCiAgICAgICAgcnVuOiB5YXJuIC0tZnJvemVuLWxvY2tmaWxl\nCiAgICAgIC0gbmFtZTogdGVzdAogICAgICAgIHJ1bjogeWFybiB0ZXN0CiAg\nICAgIC0gbmFtZTogY292ZXJhZ2UgdGVzdAogICAgICAgIHJ1bjogeWFybiBj\nb3ZlcmFnZQogICAgICAtIG5hbWU6IHBlcmYgdGVzdAogICAgICAgIHJ1bjog\neWFybiB0ZXN0OnBlcmYKICAgICAgLSB1c2VzOiBjb3ZlcmFsbHNhcHAvZ2l0\naHViLWFjdGlvbkA4Y2JlZjFkZWEzNzNlYmNlNTZkZTBhMTRjNjhkNjI2N2Jh\nYTEwYjQ0ICMgdjEuMS4yCiAgICAgICAgd2l0aDoKICAgICAgICAgIGdpdGh1\nYi10b2tlbjogJHt7IHNlY3JldHMuR0lUSFVCX1RPS0VOIH19Cg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/jipeng6036-del/immer/contents/.github/workflows/test.yml?ref=d54c38736b4393720c2f47e0cc26ef320fb9674d",
+    "git": "https://api.github.com/repos/jipeng6036-del/immer/git/blobs/2aaea3b8ee61f6f073c0e03ee1e5bb68c564d88c",
+    "html": "https://github.com/jipeng6036-del/immer/blob/d54c38736b4393720c2f47e0cc26ef320fb9674d/.github/workflows/test.yml"
+  }
+}

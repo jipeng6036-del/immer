@@ -1,0 +1,77 @@
+{
+  "ref": "75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+  "files": [
+    {
+      "file": "src/core/current.ts",
+      "sha256": "ad170b371269d0f90b9cff269084a44b70d79a32bbffbc69d7bec4885816fa9a"
+    },
+    {
+      "file": "src/core/finalize.ts",
+      "sha256": "f5c76275dc374fb22367e21ab9348ca663dd681588b0becfb9564754d4fb913b"
+    },
+    {
+      "file": "src/core/immerClass.ts",
+      "sha256": "8cf35b67c6f31fb1e1d861dde65c5db106a90178aaf2d6f1a18fc0683a45eb01"
+    },
+    {
+      "file": "src/core/proxy.ts",
+      "sha256": "fac7fb2778b3c9a5add6178b889f03e198da58c5573a0cc5da61eeef4055a990"
+    },
+    {
+      "file": "src/core/scope.ts",
+      "sha256": "ccfd3cabb86ea9568b5ea18d36aeaec7426f8cbc0bc4107624ad4348ea146056"
+    },
+    {
+      "file": "src/immer.ts",
+      "sha256": "4b6ac1c93d490ac54dc3634cf3f38064fd065dd0f8fc3bf1c5d2d6bab5b266a5"
+    },
+    {
+      "file": "src/internal.ts",
+      "sha256": "3d8f2bd0bc4379a9f6709a907029d02029c93cad75fed586cfbab88060a35896"
+    },
+    {
+      "file": "src/plugins/arrayMethods.ts",
+      "sha256": "4d12e308ea3a0e670834cb5aa3874e47de925a51d8b12c3dc71d5e6c342d97c4"
+    },
+    {
+      "file": "src/plugins/mapset.ts",
+      "sha256": "8cfdf4ac7925d4c8ca248df3b95bd5b626e0473338c21e56b9ca2990d16e0a41"
+    },
+    {
+      "file": "src/plugins/patches.ts",
+      "sha256": "611a87c99ca766ccf33bf55507f989502cac0804d3fd9fd648984efefbbdae23"
+    },
+    {
+      "file": "src/types/globals.d.ts",
+      "sha256": "7a3e25d022daacb54a8bfdaeabea263c6266cfc19c9d855d002b7014beb8dc8d"
+    },
+    {
+      "file": "src/types/index.js.flow",
+      "sha256": "5c0ec7b6db6b3c90f69f3b46e68bc43691801f112b28efbbd4a49e67a7c33ef6"
+    },
+    {
+      "file": "src/types/types-external.ts",
+      "sha256": "10f925fcf02b01220423072a07a59482ca2630d4a5cce1e8da2614307a2b6f53"
+    },
+    {
+      "file": "src/types/types-internal.ts",
+      "sha256": "41d6f552263a3812607f9a47d12224f5d4ce6b8934664fff828d4967bf9ed659"
+    },
+    {
+      "file": "src/utils/common.ts",
+      "sha256": "866d918f39f40b3566d1e6ca3316a2495cd036354a9419fab0c103dc0db332b5"
+    },
+    {
+      "file": "src/utils/env.ts",
+      "sha256": "c8b9b7d096f5eb90aaadf4d0c1947217635381dd990ff317b83111d5424a624e"
+    },
+    {
+      "file": "src/utils/errors.ts",
+      "sha256": "6041b13b5252df6908e9b693ab114eddc21c0967b6d9bf255f5120278bfd2cec"
+    },
+    {
+      "file": "src/utils/plugins.ts",
+      "sha256": "a124c5fa095b7592d35bdc88ded44f5e2fa6ca7b90cee2cd36c034a4a8d15132"
+    }
+  ]
+}

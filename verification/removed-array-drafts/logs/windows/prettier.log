@@ -1,0 +1,7 @@
+yarn run v1.22.22
+(node:29752) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\upstream\node_modules\.bin\prettier --check src/plugins/arrayMethods.ts website/docs/array-methods.md __tests__/array-methods-removed.js
+Checking formatting...
+All matched files use Prettier code style!
+Done in 0.35s.

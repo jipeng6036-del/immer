@@ -1,0 +1,127 @@
+yarn run v1.22.22
+(node:43172) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ <workspace>\ci-evidence\pr4-discovery-20261030-0205\lane-js\baseline-final\node_modules\.bin\vitest run __tests__/array-methods-removed.js
+
+ RUN  v3.2.6 <workspace>/ci-evidence/pr4-discovery-20261030-0205/lane-js/baseline-final
+
+ ❯ __tests__/array-methods-removed.js (32 tests | 10 failed) 17ms
+   ✓ removed array values: plugin=false, autoFreeze=false > pop returns a draft that can move between arrays 4ms
+   ✓ removed array values: plugin=false, autoFreeze=false > shift returns a draft that can move between arrays 1ms
+   ✓ removed array values: plugin=false, autoFreeze=false > splice returns a draft that can move between arrays 0ms
+   ✓ removed array values: plugin=false, autoFreeze=false > preserves holes when splicing sparse arrays 0ms
+   ✓ removed array values: plugin=false, autoFreeze=false > reuses a child draft that was read before removal 0ms
+   ✓ removed array values: plugin=false, autoFreeze=false > does not reread getters outside the removed position 0ms
+   ✓ removed array values: plugin=false, autoFreeze=false > preserves empty no-op return values and structural sharing 0ms
+   ✓ removed array values: plugin=false, autoFreeze=false > keeps newly inserted objects undrafted when removed 0ms
+   ✓ removed array values: plugin=false, autoFreeze=true > pop returns a draft that can move between arrays 1ms
+   ✓ removed array values: plugin=false, autoFreeze=true > shift returns a draft that can move between arrays 0ms
+   ✓ removed array values: plugin=false, autoFreeze=true > splice returns a draft that can move between arrays 1ms
+   ✓ removed array values: plugin=false, autoFreeze=true > preserves holes when splicing sparse arrays 0ms
+   ✓ removed array values: plugin=false, autoFreeze=true > reuses a child draft that was read before removal 0ms
+   ✓ removed array values: plugin=false, autoFreeze=true > does not reread getters outside the removed position 0ms
+   ✓ removed array values: plugin=false, autoFreeze=true > preserves empty no-op return values and structural sharing 0ms
+   ✓ removed array values: plugin=false, autoFreeze=true > keeps newly inserted objects undrafted when removed 0ms
+   × removed array values: plugin=true, autoFreeze=false > pop returns a draft that can move between arrays 5ms
+     → expected false to be true // Object.is equality
+   × removed array values: plugin=true, autoFreeze=false > shift returns a draft that can move between arrays 0ms
+     → expected false to be true // Object.is equality
+   × removed array values: plugin=true, autoFreeze=false > splice returns a draft that can move between arrays 0ms
+     → expected false to be true // Object.is equality
+   × removed array values: plugin=true, autoFreeze=false > preserves holes when splicing sparse arrays 0ms
+     → expected true to be false // Object.is equality
+   ✓ removed array values: plugin=true, autoFreeze=false > reuses a child draft that was read before removal 0ms
+   × removed array values: plugin=true, autoFreeze=false > does not reread getters outside the removed position 0ms
+     → expected true to be false // Object.is equality
+   ✓ removed array values: plugin=true, autoFreeze=false > preserves empty no-op return values and structural sharing 0ms
+   ✓ removed array values: plugin=true, autoFreeze=false > keeps newly inserted objects undrafted when removed 0ms
+   × removed array values: plugin=true, autoFreeze=true > pop returns a draft that can move between arrays 0ms
+     → expected false to be true // Object.is equality
+   × removed array values: plugin=true, autoFreeze=true > shift returns a draft that can move between arrays 0ms
+     → expected false to be true // Object.is equality
+   × removed array values: plugin=true, autoFreeze=true > splice returns a draft that can move between arrays 0ms
+     → expected false to be true // Object.is equality
+   × removed array values: plugin=true, autoFreeze=true > preserves holes when splicing sparse arrays 0ms
+     → expected true to be false // Object.is equality
+   ✓ removed array values: plugin=true, autoFreeze=true > reuses a child draft that was read before removal 0ms
+   × removed array values: plugin=true, autoFreeze=true > does not reread getters outside the removed position 0ms
+     → expected true to be false // Object.is equality
+   ✓ removed array values: plugin=true, autoFreeze=true > preserves empty no-op return values and structural sharing 0ms
+   ✓ removed array values: plugin=true, autoFreeze=true > keeps newly inserted objects undrafted when removed 0ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=false > pop returns a draft that can move between arrays
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=false > shift returns a draft that can move between arrays
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=false > splice returns a draft that can move between arrays
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=true > pop returns a draft that can move between arrays
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=true > shift returns a draft that can move between arrays
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=true > splice returns a draft that can move between arrays
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ immer.produce.patches __tests__/array-methods-removed.js:35:31
+     33|           ? draft.todo.splice(0, 1)[0]
+     34|           : draft.todo[method]()
+     35|         expect(isDraft(item)).toBe(true)
+       |                               ^
+     36|         draft.done.push(item)
+     37|         item.done = true
+ ❯ Immer.produce src/core/immerClass.ts:110:14
+ ❯ __tests__/array-methods-removed.js:28:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/10]⎯
+
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=false > preserves holes when splicing sparse arrays
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=true > preserves holes when splicing sparse arrays
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ __tests__/array-methods-removed.js:68:32
+     66|      removed[2].done = true
+     67|     })
+     68|     expect(base.items[2].done).toBe(false)
+       |                                ^
+     69|     expect(next.done[0].done).toBe(true)
+     70|    })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/10]⎯
+
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=false > does not reread getters outside the removed position
+ FAIL  __tests__/array-methods-removed.js > removed array values: plugin=true, autoFreeze=true > does not reread getters outside the removed position
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ __tests__/array-methods-removed.js:104:27
+    102|     })
+    103|     expect(reads).toBe(1)
+    104|     expect(items[1].done).toBe(false)
+       |                           ^
+    105|     expect(next.done[0].done).toBe(true)
+    106|    })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/10]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  10 failed | 22 passed (32)
+   Start at  19:42:56
+   Duration  1.01s (transform 79ms, setup 0ms, collect 122ms, tests 17ms, environment 0ms, prepare 49ms)
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

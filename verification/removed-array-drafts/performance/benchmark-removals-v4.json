@@ -1,0 +1,56 @@
+{
+  "node": "v24.14.0",
+  "note": "Removed values ignored in timing; old plugin returns raw values while candidate and ordinary proxy provide drafts. No performance superiority claim.",
+  "results": [
+    {
+      "name": "pop",
+      "size": 1000,
+      "count": 100,
+      "iterations": 10,
+      "oldPlugin": 0.2406000000000006,
+      "candidatePlugin": 0.7486999999999995,
+      "ordinaryProxy": 2.5238000000000014,
+      "candidateVsOrdinary": 0.29665583643711824
+    },
+    {
+      "name": "shift",
+      "size": 1000,
+      "count": 100,
+      "iterations": 10,
+      "oldPlugin": 17.874100000000006,
+      "candidatePlugin": 18.63319999999976,
+      "ordinaryProxy": 748.2829,
+      "candidateVsOrdinary": 0.024901277311027366
+    },
+    {
+      "name": "splice",
+      "size": 1000,
+      "count": 100,
+      "iterations": 10,
+      "oldPlugin": 30.027000000000044,
+      "candidatePlugin": 8.4333000000006,
+      "ordinaryProxy": 6.758899999999812,
+      "candidateVsOrdinary": 1.247732619213309
+    },
+    {
+      "name": "splice-all",
+      "size": 1000,
+      "count": 1000,
+      "iterations": 10,
+      "oldPlugin": 0.39249999999992724,
+      "candidatePlugin": 19.7541999999994,
+      "ordinaryProxy": 19.00670000000082,
+      "candidateVsOrdinary": 1.0393282368848116
+    },
+    {
+      "name": "pop",
+      "size": 10000,
+      "count": 1,
+      "iterations": 10,
+      "oldPlugin": 0.14059999999972206,
+      "candidatePlugin": 1.2613000000001193,
+      "ordinaryProxy": 2.035399999999754,
+      "candidateVsOrdinary": 0.6196816350595813
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"pr4-immer-tarball-consumer","private":true,"version":"1.0.0","dependencies":{"immer":"file:../../artifacts/baseline/immer-10.0.3-beta.tgz"}}

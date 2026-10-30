@@ -1,0 +1,23 @@
+{
+  "repository": "jipeng6036-del/immer",
+  "runId": 40995723319,
+  "url": "https://github.com/jipeng6036-del/immer/actions/runs/40995723319",
+  "head": "d54c38736b4393720c2f47e0cc26ef320fb9674d",
+  "workflow": "Test",
+  "job": "build",
+  "conclusion": "success",
+  "node": "24.22.1",
+  "yarn": "1.22.22",
+  "workflowBlob": "2aaea3b8ee61f6f073c0e03ee1e5bb68c564d88c",
+  "sourcePassed": 4244,
+  "sourceSkipped": 8,
+  "productionPassed": 3693,
+  "productionSkipped": 8,
+  "flowErrors": 0,
+  "coveragePassed": 4244,
+  "coverageSkipped": 8,
+  "performanceScripts": 4,
+  "coveralls": "Action step succeeded and log reports Using lcov file. No server-side upload ID or confirmation URL observed.",
+  "upstreamPRChecks": "not verified in this evidence package",
+  "rawJobSha256": "0f463617a1044985f9a48bd9194e13c0302a2c09823864d8dff98736cbfd4f64"
+}

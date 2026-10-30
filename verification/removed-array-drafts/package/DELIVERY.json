@@ -1,0 +1,234 @@
+{
+  "utc": "2026-10-30T03:04:25.496645+00:00",
+  "status": "PASSED_ACTUAL_LOCAL_TARBALL_CONSUMPTION",
+  "baseline": "75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+  "candidate": "d54c38736b4393720c2f47e0cc26ef320fb9674d",
+  "tree": "b6d5113c6125b8712f316b601d21222a74550cdb",
+  "packages": {
+    "baseline": {
+      "name": "immer",
+      "version": "10.0.3-beta",
+      "sha256": "162aad55307dc22c70db762851b71d67e38b1dddbefdf438377fe47a4ca031a7",
+      "npmIntegrity": "sha512-2QYc2alUjTNRaASPco3QOFJq5PUqJj7/98cDx8afKBlHhdK6TE+cx8upCI4KoLZt2AkzoLqi1r8jHe8gdLP3iw==",
+      "files": 34
+    },
+    "candidate": {
+      "name": "immer",
+      "version": "10.0.3-beta",
+      "sha256": "f52fc1ada2356097444d2ff08993d472b26d8b2be983b149e92ab21639ea84d3",
+      "npmIntegrity": "sha512-4zlwXFdTsQJJCTdxnTmGftF/HbMC/xoidIn+7RdqG+KYBHsFx0+Fm/OxXEX45xvxtFFKonM8bCLk4hRmPePXSQ==",
+      "files": 34
+    }
+  },
+  "sourceArchives": {
+    "baseline": {
+      "ref": "75a290e44ba14bd723c8ef8546b6559c8ef3ae88",
+      "sha256": "048d36186e16f68c05de7d4a7997f7f8c441a9986850e7014dc5619c4ed5a84e"
+    },
+    "candidate": {
+      "ref": "d54c38736b4393720c2f47e0cc26ef320fb9674d",
+      "sha256": "20917d66ce8cf8a6a6c47d839e151d38b6971351986c6d07d82f7c2d847a0904"
+    }
+  },
+  "build": "Baseline exact git archive built via original yarn build using existing same-lock dependency junction; candidate original final dist copied and hashes matched lane-js DELIVERY. Package manifests/files/exports unchanged from each source commit. No product checkout changes.",
+  "consumption": "npm pack original package manifests -> fresh Windows/Linux consumers npm install exact tgz; no package renaming, no alias, no source-linked dependency. require/import resolution points inside installed node_modules/immer. Linux network disabled; Node24.14.0 both platforms.",
+  "byteBinding": "All tarball files exactly match stage and installed files on both platforms; INSTALLED_BYTE_COMPARISON.json. Candidate four official artifact hashes match worker DELIVERY.",
+  "casesPerInvocation": 17,
+  "invocations": 12,
+  "candidateAssertionsPassed": 102,
+  "baselineDefectFailures": 78,
+  "baselineControlsPassed": 24,
+  "runs": [
+    {
+      "log": "windows-baseline-cjs-development.json",
+      "node": "v24.14.0",
+      "platform": "win32",
+      "entry": {
+        "format": "require",
+        "resolved": "<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-package\\consumers\\windows-baseline\\node_modules\\immer\\dist\\cjs\\index.js",
+        "NODE_ENV": "development"
+      },
+      "passed": 4,
+      "failed": 13,
+      "exit": 1
+    },
+    {
+      "log": "windows-baseline-cjs-production.json",
+      "node": "v24.14.0",
+      "platform": "win32",
+      "entry": {
+        "format": "require",
+        "resolved": "<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-package\\consumers\\windows-baseline\\node_modules\\immer\\dist\\cjs\\index.js",
+        "NODE_ENV": "production"
+      },
+      "passed": 4,
+      "failed": 13,
+      "exit": 1
+    },
+    {
+      "log": "windows-baseline-esm-development.json",
+      "node": "v24.14.0",
+      "platform": "win32",
+      "entry": {
+        "format": "import",
+        "resolved": "file:///<workspace>/ci-evidence/pr4-discovery-20261030-0205/lane-python/immer-package/consumers/windows-baseline/node_modules/immer/dist/immer.mjs",
+        "NODE_ENV": "development"
+      },
+      "passed": 4,
+      "failed": 13,
+      "exit": 1
+    },
+    {
+      "log": "windows-candidate-cjs-development.json",
+      "node": "v24.14.0",
+      "platform": "win32",
+      "entry": {
+        "format": "require",
+        "resolved": "<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-package\\consumers\\windows-candidate\\node_modules\\immer\\dist\\cjs\\index.js",
+        "NODE_ENV": "development"
+      },
+      "passed": 17,
+      "failed": 0,
+      "exit": 0
+    },
+    {
+      "log": "windows-candidate-cjs-production.json",
+      "node": "v24.14.0",
+      "platform": "win32",
+      "entry": {
+        "format": "require",
+        "resolved": "<workspace>\\ci-evidence\\pr4-discovery-20261030-0205\\lane-python\\immer-package\\consumers\\windows-candidate\\node_modules\\immer\\dist\\cjs\\index.js",
+        "NODE_ENV": "production"
+      },
+      "passed": 17,
+      "failed": 0,
+      "exit": 0
+    },
+    {
+      "log": "windows-candidate-esm-development.json",
+      "node": "v24.14.0",
+      "platform": "win32",
+      "entry": {
+        "format": "import",
+        "resolved": "file:///<workspace>/ci-evidence/pr4-discovery-20261030-0205/lane-python/immer-package/consumers/windows-candidate/node_modules/immer/dist/immer.mjs",
+        "NODE_ENV": "development"
+      },
+      "passed": 17,
+      "failed": 0,
+      "exit": 0
+    },
+    {
+      "log": "linux-baseline-cjs-development.json",
+      "node": "v24.14.0",
+      "platform": "linux",
+      "entry": {
+        "format": "require",
+        "resolved": "/e/consumers/linux-baseline/node_modules/immer/dist/cjs/index.js",
+        "NODE_ENV": "development"
+      },
+      "passed": 4,
+      "failed": 13,
+      "exit": 1
+    },
+    {
+      "log": "linux-baseline-cjs-production.json",
+      "node": "v24.14.0",
+      "platform": "linux",
+      "entry": {
+        "format": "require",
+        "resolved": "/e/consumers/linux-baseline/node_modules/immer/dist/cjs/index.js",
+        "NODE_ENV": "production"
+      },
+      "passed": 4,
+      "failed": 13,
+      "exit": 1
+    },
+    {
+      "log": "linux-baseline-esm-development.json",
+      "node": "v24.14.0",
+      "platform": "linux",
+      "entry": {
+        "format": "import",
+        "resolved": "file:///e/consumers/linux-baseline/node_modules/immer/dist/immer.mjs",
+        "NODE_ENV": "development"
+      },
+      "passed": 4,
+      "failed": 13,
+      "exit": 1
+    },
+    {
+      "log": "linux-candidate-cjs-development.json",
+      "node": "v24.14.0",
+      "platform": "linux",
+      "entry": {
+        "format": "require",
+        "resolved": "/e/consumers/linux-candidate/node_modules/immer/dist/cjs/index.js",
+        "NODE_ENV": "development"
+      },
+      "passed": 17,
+      "failed": 0,
+      "exit": 0
+    },
+    {
+      "log": "linux-candidate-cjs-production.json",
+      "node": "v24.14.0",
+      "platform": "linux",
+      "entry": {
+        "format": "require",
+        "resolved": "/e/consumers/linux-candidate/node_modules/immer/dist/cjs/index.js",
+        "NODE_ENV": "production"
+      },
+      "passed": 17,
+      "failed": 0,
+      "exit": 0
+    },
+    {
+      "log": "linux-candidate-esm-development.json",
+      "node": "v24.14.0",
+      "platform": "linux",
+      "entry": {
+        "format": "import",
+        "resolved": "file:///e/consumers/linux-candidate/node_modules/immer/dist/immer.mjs",
+        "NODE_ENV": "development"
+      },
+      "passed": 17,
+      "failed": 0,
+      "exit": 0
+    }
+  ],
+  "sourceReview": {
+    "equal": true,
+    "method": "TypeScript AST printer removes comments; void expression statement normalized to equivalent expression statement because result is unused",
+    "typescript": "5.0.2",
+    "sha256": "2491380d57aa942ebfd0c5d4525e7d4dc781a4cae7f687f0886ef4b850f24d3a"
+  },
+  "validationScope": [
+    "pop/shift/splice move with autoFreeze on/off and frozen/unfrozen base",
+    "base preserved, nested updates and patches+inverse roundtrip",
+    "preexisting draft identity across reinsert/remove chain",
+    "external object raw identity and mutation behavior",
+    "empty/no-op structural sharing",
+    "retained read-once getter",
+    "sparse removed array holes"
+  ],
+  "limits": [
+    "Local npm tarballs only, not registry publication or released version acceptance",
+    "Did not rerun full unit/build-test/Flow/coverage/performance suites",
+    "Registry installs, browser bundlers and react-native export condition not exercised",
+    "GitHub fork/upstream CI and public proof publication owned by root"
+  ],
+  "artifacts": [
+    "SOURCE_BINDING.json",
+    "PACK_BINDING.json",
+    "FINAL_SOURCE_REVIEW.json",
+    "INSTALLED_BYTE_COMPARISON.json",
+    "WINDOWS_EXECUTION.json",
+    "baseline-build.log",
+    "baseline-pack.stdout.json",
+    "candidate-pack.stdout.json",
+    "public-probe.cjs",
+    "entry.cjs",
+    "entry.mjs",
+    "linux.sh"
+  ]
+}

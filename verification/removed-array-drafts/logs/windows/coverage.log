@@ -1,0 +1,87 @@
+yarn run v1.22.22
+(node:36756) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ vitest run --coverage
+Loaded  vitest@3.2.6  and  @vitest/coverage-v8@2.1.9 .
+Running mixed versions is not supported and may lead into bugs
+Update your dependencies and make sure the versions match.
+
+ RUN  v3.2.6 <workspace>/ci-evidence/pr4-discovery-20261030-0205/lane-js/upstream
+      Coverage enabled with v8
+
+ ✓ __tests__/immutable.ts (4 tests) 5ms
+ ✓ __tests__/draft.ts (6 tests) 5ms
+ ✓ __tests__/not-strict-copy.ts (6 tests) 7ms
+ ✓ __tests__/original.js (4 tests) 8ms
+ ✓ __tests__/prototype-inspection.js (9 tests) 9ms
+ ✓ __tests__/isModified.js (10 tests) 10ms
+ ✓ __tests__/type-external.ts (6 tests) 7ms
+ ✓ __tests__/array-methods-filter-length.js (4 tests) 10ms
+ ✓ __tests__/empty.ts (8 tests) 10ms
+ ✓ __tests__/produce.ts (37 tests) 14ms
+ ✓ __tests__/current.js (25 tests) 20ms
+ ✓ __tests__/map-set.js (52 tests) 28ms
+ ✓ __tests__/curry.js (6 tests) 11ms
+ ✓ __tests__/plugins.js (4 tests) 7ms
+ ✓ __tests__/array-methods-removed.js (32 tests) 31ms
+ ✓ __tests__/readme.js (8 tests) 28ms
+ ✓ __tests__/regressions.js (65 tests | 8 skipped) 20ms
+ ✓ __tests__/frozen.js (20 tests) 18ms
+ ✓ __tests__/manual.js (10 tests) 19ms
+ ✓ __tests__/redux.ts (5 tests) 5ms
+ ✓ __tests__/updateScenarios.js (17 tests) 87ms
+ ✓ __tests__/patch.js (228 tests) 70ms
+ ✓ __tests__/spec_ts.ts (1 test) 2ms
+ ✓ __tests__/isDraftable.js (1 test) 2ms
+ ✓ __tests__/null.js (1 test) 2ms
+ ✓ __tests__/base.js (3683 tests) 1202ms
+
+ Test Files  26 passed (26)
+      Tests  4244 passed | 8 skipped (4252)
+   Start at  19:43:31
+   Duration  5.23s (transform 1.35s, setup 0ms, collect 12.23s, tests 1.64s, environment 7ms, prepare 9.15s)
+
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   36.04 |    93.71 |   90.72 |   36.04 |                   
+ upstream          |       0 |      100 |     100 |       0 |                   
+  ...m-reporter.ts |       0 |      100 |     100 |       0 | 3-18              
+ ...rmance_tests__ |       0 |        0 |       0 |       0 |                   
+  add-data.mjs     |       0 |        0 |       0 |       0 | 1-91              
+  incremental.mjs  |       0 |        0 |       0 |       0 | 1-99              
+  large-obj.mjs    |       0 |        0 |       0 |       0 | 1-32              
+  measure.mjs      |       0 |        0 |       0 |       0 | 1-20              
+  todo.mjs         |       0 |        0 |       0 |       0 | 1-232             
+ ...m/perf-testing |       0 |        0 |       0 |       0 |                   
+  ...enchmarks.mjs |       0 |        0 |       0 |       0 | 1-1301            
+  ...profiling.mjs |       0 |        0 |       0 |       0 | 1-562             
+  ...cpuprofile.js |       0 |        0 |       0 |       0 | 1-570             
+  ...own.config.js |       0 |        0 |       0 |       0 | 1-18              
+ upstream/src      |   96.66 |       50 |     100 |   96.66 |                   
+  immer.ts         |   94.73 |       50 |     100 |   94.73 | 1                 
+  internal.ts      |     100 |      100 |     100 |     100 |                   
+ upstream/src/core |   96.96 |    95.91 |   97.95 |   96.96 |                   
+  current.ts       |   96.87 |    93.75 |     100 |   96.87 | 1                 
+  finalize.ts      |   99.51 |     93.9 |     100 |   99.51 | 287               
+  immerClass.ts    |      92 |    97.29 |   91.66 |      92 | ...49-150,198-199 
+  proxy.ts         |   97.74 |    97.19 |     100 |   97.74 | 1,144-150         
+  scope.ts         |      98 |    93.33 |     100 |      98 | 1                 
+ ...am/src/plugins |   97.07 |    94.75 |   98.24 |   97.07 |                   
+  arrayMethods.ts  |   99.55 |    97.22 |     100 |   99.55 | 1                 
+  mapset.ts        |   97.27 |     97.7 |   96.77 |   97.27 | 2,192-200         
+  patches.ts       |   95.19 |    91.33 |     100 |   95.19 | ...08-209,371-372 
+ ...ream/src/types |     100 |        0 |     100 |     100 |                   
+  ...s-external.ts |     100 |      100 |     100 |     100 |                   
+  ...s-internal.ts |     100 |        0 |     100 |     100 | 20                
+ ...ream/src/utils |    97.7 |    95.62 |   96.87 |    97.7 |                   
+  common.ts        |   97.87 |    98.34 |   95.83 |   97.87 | 1,188-190         
+  env.ts           |     100 |        0 |     100 |     100 | 6                 
+  errors.ts        |   97.72 |    77.77 |     100 |   97.72 | 1                 
+  plugins.ts       |   96.15 |    83.33 |     100 |   96.15 | 1                 
+ upstream/website  |       0 |        0 |       0 |       0 |                   
+  ...rus.config.js |       0 |        0 |       0 |       0 | 1-105             
+  sidebars.js      |       0 |        0 |       0 |       0 | 1-34              
+-------------------|---------|----------|---------|---------|-------------------
+Done in 6.54s.

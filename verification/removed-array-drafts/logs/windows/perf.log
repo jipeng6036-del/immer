@@ -1,0 +1,50 @@
+yarn run v1.22.22
+(node:45940) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+$ cd __performance_tests__ && node add-data.mjs && node todo.mjs && node incremental.mjs && node large-obj.mjs
+
+# add-data - loading large set of data
+
+just mutate: 0ms
+just mutate, freeze: 0ms
+handcrafted reducer (no freeze): 0ms
+handcrafted reducer (with freeze): 0ms
+immutableJS: 16ms
+immutableJS + toJS: 7ms
+seamless-immutable: 22ms
+seamless-immutable + asMutable: 21ms
+immer - without autofreeze * 10000: 6ms
+immer - with autofreeze * 10000: 6ms
+
+# todo - performance
+
+just mutate: 0ms
+just mutate, freeze: 78ms
+deepclone, then mutate: 78ms
+deepclone, then mutate, then freeze: 210ms
+handcrafted reducer (no freeze): 2ms
+handcrafted reducer (with freeze): 3ms
+naive handcrafted reducer (without freeze): 3ms
+naive handcrafted reducer (with freeze): 9ms
+immutableJS: 6ms
+immutableJS + toJS: 82ms
+seamless-immutable: 26ms
+seamless-immutable + asMutable: 71ms
+immer - without autofreeze: 8ms
+immer - with autofreeze: 17ms
+immer - without autofreeze - with patch listener: 17ms
+immer - with autofreeze - with patch listener: 16ms
+
+# incremental - lot of small incremental changes
+
+just mutate: 0ms
+handcrafted reducer: 1ms
+immutableJS: 2ms
+immer: 61ms
+immer - single produce: 2ms
+
+# large-obj - mutate large object
+
+immer - with setUseStrictShallowCopy: 182ms
+immer - without setUseStrictShallowCopy: 9ms
+Done in 6.97s.
